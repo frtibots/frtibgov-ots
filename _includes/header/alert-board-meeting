@@ -18,7 +18,8 @@ for the once a year joint meeting.
 {% capture confURL -%}
        https://teams.microsoft.com/l/meetup-join/19%253ameeting_MDMxZDRkODktMGZjZS00ZDQ3LWJkNmMtNzRjMDA4ZThkMDQ1%2540thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d
 
-%                                                19%3ameeting_NzEzOTlkZmQtODI0ZS00ZTBhLWJhNmYtMGI1Y2M0OTUzYWYx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+{% comment -%}                                                19%3ameeting_NzEzOTlkZmQtODI0ZS00ZTBhLWJhNmYtMGI1Y2M0OTUzYWYx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+{% endcomment -%}
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
