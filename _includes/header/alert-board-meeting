@@ -52,9 +52,11 @@ for the once a year joint meeting.
           Attendees using the Teams link will be able to listen to the meeting and view the materials
           being discussed. Their lines will be muted.
           </p>
+{% comment -%}
           <p>
           Pursuant to <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-C/section-102-3.105" target="_blank" rel="noopener">41 CFR 102–3.105(j)</a>, <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-D/section-102-3.140" target="_blank" rel="noopener">41 CFR 102–3.140</a>, and <a class="external_link" href="https://uscode.house.gov/view.xhtml?hl=false&edition=2021&req=granuleid%3AUSC-2022-title5a-node2&num=0" target="_blank" rel="noopener">section 10(a)(3) of the Federal Advisory Committee Act</a>, interested parties may submit written statements in response to the stated agenda of the meeting, or to the Employee Thrift Advisory Council (ETAC), in general. Individuals may submit their comments to <a href="mailto:ETACComments@frtib.gov?subject=ETAC Comments" target="_blank" rel="noopener">ETACComments@frtib.gov</a>.
           </p>
+{% endcomment -%}
         </div>
       </div>
       <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
