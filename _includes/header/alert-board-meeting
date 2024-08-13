@@ -9,14 +9,17 @@ To add/remove the ETAC text to the modal switch lines 16/17. The second one, aft
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
 for the once a year joint meeting.
 {% endcomment -%}
-{% assign confDate = "Tuesday, July 23<sup>rd</sup>" -%}
+{% assign confDate = "Tuesday, August 27<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "140 856 172 #" -%}
+{% assign confID = "202 098 496#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
 {% capture confURL -%}
-       https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzEzOTlkZmQtODI0ZS00ZTBhLWJhNmYtMGI1Y2M0OTUzYWYx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+       https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDMxZDRkODktMGZjZS00ZDQ3LWJkNmMtNzRjMDA4ZThkMDQ1%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+
+{% comment -%}                                                19%3ameeting_NzEzOTlkZmQtODI0ZS00ZTBhLWJhNmYtMGI1Y2M0OTUzYWYx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+{% endcomment -%}
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
@@ -41,7 +44,7 @@ for the once a year joint meeting.
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,140856172#">1-202-599-1426,140856172#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,202098496#">1-202-599-1426,202098496#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
 
@@ -49,9 +52,11 @@ for the once a year joint meeting.
           Attendees using the Teams link will be able to listen to the meeting and view the materials
           being discussed. Their lines will be muted.
           </p>
+{% comment -%}
           <p>
           Pursuant to <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-C/section-102-3.105" target="_blank" rel="noopener">41 CFR 102–3.105(j)</a>, <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-D/section-102-3.140" target="_blank" rel="noopener">41 CFR 102–3.140</a>, and <a class="external_link" href="https://uscode.house.gov/view.xhtml?hl=false&edition=2021&req=granuleid%3AUSC-2022-title5a-node2&num=0" target="_blank" rel="noopener">section 10(a)(3) of the Federal Advisory Committee Act</a>, interested parties may submit written statements in response to the stated agenda of the meeting, or to the Employee Thrift Advisory Council (ETAC), in general. Individuals may submit their comments to <a href="mailto:ETACComments@frtib.gov?subject=ETAC Comments" target="_blank" rel="noopener">ETACComments@frtib.gov</a>.
           </p>
+{% endcomment -%}
         </div>
       </div>
       <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
