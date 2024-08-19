@@ -28,6 +28,10 @@ ___
 <strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
   {% endfor %}
+  {% comment -%}
+  Use ### to add a heading, for example ### Email to the board
+  {% endcomment -%}
+  If you want to contact Board member(s), please send an email to <a href="mailto:FRTIB_Board_Members@frtib.gov">FRTIB_Board_Members@frtib.gov</a>
 ### Executive Director
 ___
   {% for member in site.data.board -%}
@@ -37,6 +41,7 @@ ___
 <strong>{{member.name}}</strong> {{member.description }}<br><br>
     {% endif -%}
     {% endfor %}
+
 ### Employee Thrift Advisory Council
 ___
   {% for member in site.data.board -%}
