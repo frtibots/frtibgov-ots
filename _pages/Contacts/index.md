@@ -94,7 +94,7 @@ Washington, D.C. 20002
 
 Please be aware that the FRTIB will forward any forms, written requests, inquiries, or correspondence it receives from TSP participants or beneficiaries to the Thriftline Service Center.
 
-If you want to contact Board member(s), please send an email to <a href="mailto:FRTIB_Board_Members@frtib.gov">FRTIB_Board_Members@frtib.gov</a>
+To contact the Board regarding a FRTIB or TSP matter, please send an email to <FRTIB_Board_Members@frtib.gov>.  Please note this email box is not intended for solicitations.
 
 ### Press inquiries
 
