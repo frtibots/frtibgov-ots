@@ -242,12 +242,15 @@ footer_nav:
     url: /eeo/
   - name: Data
     url: /data/
+  - name: AI
+    url: /ai/
   - name: Onboarding
     url: /onboarding/
   - name: Vulnerability Disclosure
     url: /vulnerability-disclosure-policy/
   - name: FRTIB IPv6 Policy
     url: /IPv6/
+
 
 privacy_nav:
   - name: Privacy Policy
