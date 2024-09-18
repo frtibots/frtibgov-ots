@@ -14,7 +14,7 @@ permalink: /ai/
 
 ## Federal Retirement Thrift Investment Board Compliance Plan for OMB Memoranda M-24-10 – 09/2024
 
-### Prepared by Alex Podpaly, Chief AI Officer  
+### Prepared by Alex Podpaly, Chief Data and AI Officer  
 
 Federal Retirement Thrift Investment Board (FRTIB) is taking steps to comply with The AI in Government Act of 2020 and Office of Management and Budget (OMB) Memorandum M-24-10, Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence. Compliance with M-24-10 also signifies a meaningful step toward responsible AI implementation in FRTIB’s agency operations.
 
