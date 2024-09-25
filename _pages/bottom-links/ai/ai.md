@@ -18,7 +18,7 @@ permalink: /ai/
 The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) is taking steps to comply with the AI in Government Act of 2020 and Office of Management and Budget (OMB) Memorandum M-24-10, Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence. Compliance with M-24-10 also signifies a meaningful step toward responsible Artificial Intelligence (AI) implementation in the Agency’s operations.
 
 #### STRENGTHENING AI GOVERNANCE
-FRTIB is committed to strengthening AI governance through the use of governance bodies, policies and procedures as well as an overarching strategy. Additionally, FRTIB maintains an [AI Use Case Inventory](https://www.frtib.gov/data/ai_inventory/) {:rel="noopener noreferrer"}.
+FRTIB is committed to strengthening AI governance through the use of governance bodies, policies and procedures as well as an overarching strategy. Additionally, FRTIB maintains an [AI Use Case Inventory](https://www.frtib.gov/data/ai_inventory/){:rel="noopener noreferrer"}.
 
 #### ADVANCING RESPONSIBLE AI INNOVATION
 FRTIB plans to leverage the NIST’s AI Risk Management framework to implement AI services responsibly. The Agency will utilize existing governance processes to identify innovative AI uses and work together with other internal governance bodies to ensure responsible AI use.
