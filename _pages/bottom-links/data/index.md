@@ -18,7 +18,7 @@ The Federal Retirement Thrift Investment Board is committed to ensuring data-dri
 
 The FRTIB has established a Data Governance Policy which provides a framework to structure decisions about how the FRTIB will collect, use, structure, retain, and share data, and ensure that business or IT related initiatives have been reviewed by subject matter experts relative to the impact those initiatives may have on our data environment. This policy establishes a data governance body whose membership is defined therein.
 
-Alex Podpaly is the FRTIB’s Chief Data Officer. He can be reached at <alex.podpaly@frtib.gov> or 202-942-1600.
+Alex Podpaly is the FRTIB’s Chief Data and AI Officer. He can be reached at <alex.podpaly@frtib.gov> or 202-942-1600.
 
 {% include file-list coll="pdf" folder="/data/" format='title' dobutton=true -%}
 
