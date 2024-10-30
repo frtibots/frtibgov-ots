@@ -3,11 +3,11 @@ This is the satisfaction image block on the home page.
 
 Update the three assignments below to change the chart.
 
-Last Edit: 2023-12-11
+Last Edit: 2024-10-30
 {% endcomment -%}
-{% assign satisfied = 82 -%}
-{% assign neither = 14 -%}
-{% assign dissatisfied = 4 -%}
+{% assign satisfied = 84 -%}
+{% assign neither = 13 -%}
+{% assign dissatisfied = 3 -%}
 {% comment -%} #######  Do not edit below this line  #######{% endcomment -%}
 <style>
 // Bar Graph Horizontal Animations
