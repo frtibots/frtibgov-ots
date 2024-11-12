@@ -49,7 +49,7 @@ for the once a year joint meeting.
 {% endcomment -%}
           <p>The {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
           <p>Members of the public will not be allowed inside the building.</p>
-          <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
+          <p>Members of the public who are interested have 2 options to listen to the ETAC meeting:</p>
           <ol>
           <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,504721370#">1-202-599-1426,504721370#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
