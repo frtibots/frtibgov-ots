@@ -11,7 +11,7 @@ for the once a year joint meeting.
 {% endcomment -%}
 {% assign confDate = "Thursday, December 19<sup>st</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
-{% assign confPhone = "1-202-599-1426,454381790#" -%}
+{% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "454 381 790#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "" -%}
