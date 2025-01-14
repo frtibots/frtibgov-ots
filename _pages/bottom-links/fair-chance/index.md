@@ -38,7 +38,7 @@ Applicants who believe they have been subjected to a violation of the Fair Chanc
 · The date when contact was made;
 
 
-· Details regarding the job opportunity announcement applied to; and
+· Details regarding the job opportunity announcement applied to.
 
 
 · Copies of any documents or evidence related to the complaint.
