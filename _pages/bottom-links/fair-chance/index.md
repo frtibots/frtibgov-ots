@@ -28,7 +28,7 @@ Exceptions In accordance with 5 U.S.C. 9202(c) and 5 C.F.R. 920.201, certain pos
 
 · Federal law enforcement officers or dual-status military technician positions.
 
-##How to File a Complaint
+## How to File a Complaint
 
 Applicants who believe they have been subjected to a violation of the Fair Chance Act may submit a complaint to the Agency within 30 calendar days of the alleged violation. The complaint must be written and submitted by email to HumanResourcesDivision@FRTIB.GOV and must include:
 
