@@ -170,6 +170,9 @@ careers_nav:
   - name: Hiring Process
     url: /careers/hiring-process/
     button_text: Hiring Process
+  - name: Fair Chance to Compete Act
+    url: /careers/fair-chance
+    buttom_text: Fair Chance to Compete Act
 
 careers_work_nav:
   - name: Mission Statement
