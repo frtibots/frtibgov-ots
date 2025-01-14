@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: FCTCA
+title: Fair Chance
 styles:
 sidenav:
 scripts:
@@ -18,9 +18,12 @@ The Fair Chance to Compete for Jobs Act (Fair Chance Act) prohibits federal agen
 
 Exceptions In accordance with 5 U.S.C. 9202(c) and 5 C.F.R. 920.201, certain positions are exempt from the Fair Chance Act. The Fair Chance Act’s prohibition regarding criminal history inquiries before conditional offers of employment does not apply to:
 
+
 · Applicants being appointed to positions that require a determination of eligibility for access to classified information;
 
+
 · The assignment to, or retention in, sensitive national security duties or positions; or
+
 
 · Federal law enforcement officers or dual-status military technician positions.
 
@@ -30,9 +33,12 @@ Applicants who believe they have been subjected to a violation of the Fair Chanc
 
 · The name and contact information of the employee or contractor who made the contact with the applicant (if known);
 
+
 · The date when contact was made;
 
+
 · Details regarding the job opportunity announcement applied to; and
+
 
 · Copies of any documents or evidence related to the complaint.
 
