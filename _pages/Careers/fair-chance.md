@@ -15,22 +15,23 @@ The Fair Chance to Compete for Jobs Act (Fair Chance Act) prohibits federal agen
 
 Exceptions In accordance with 5 U.S.C. 9202(c) and 5 C.F.R. 920.201, certain positions are exempt from the Fair Chance Act. The Fair Chance Act’s prohibition regarding criminal history inquiries before conditional offers of employment does not apply to:
 
-· Applicants being appointed to positions that require a determination of eligibility for access to classified information;
+* Applicants being appointed to positions that require a determination of eligibility for access to classified information;
 
-· The assignment to, or retention in, sensitive national security duties or positions; or
+* The assignment to, or retention in, sensitive national security duties or positions; or
 
-· Federal law enforcement officers or dual-status military technician positions.
+* Federal law enforcement officers or dual-status military technician positions.
 
 How to File a Complaint
 
-Applicants who believe they have been subjected to a violation of the Fair Chance Act may submit a complaint to the Agency within 30 calendar days of the alleged violation. The complaint must be written and submitted by email to HumanResourcesDivision@FRTIB.GOV, and must include:
+Applicants who believe they have been subjected to a violation of the Fair Chance Act may submit a complaint to the Agency within 30 calendar days of the alleged violation. 
+The complaint must be written and submitted by email to HumanResourcesDivision@FRTIB.GOV, and must include:
 
-· The name and contact information of the employee or contractor who made the contact with the applicant (if known);
+* The name and contact information of the employee or contractor who made the contact with the applicant (if known);
 
-· The date when contact was made;
+* The date when contact was made;
 
-· Details regarding the job opportunity announcement applied to; and
+* Details regarding the job opportunity announcement applied to; and
 
-· Copies of any documents or evidence related to the complaint.
+* Copies of any documents or evidence related to the complaint.
 
 <!-- CONTENT END -->
