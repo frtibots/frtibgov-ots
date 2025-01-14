@@ -7,7 +7,8 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /fair-chance/
 redirect_from:
-  - /EEO.html
+  - /fairChance.html
+  - /FairChance
 #document-ready:
 #  - getRate();
 ---
