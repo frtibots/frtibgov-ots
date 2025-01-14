@@ -2,7 +2,7 @@
 layout: page2
 title: Fair Chance to Compete
 styles:
-sidenav: careers_nav
+sidenav:
 scripts:
 permalink: /careers/fair-chance-to-compete/
 
