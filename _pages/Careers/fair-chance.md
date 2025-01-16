@@ -17,7 +17,7 @@ The regulations can be found in <a href="https://www.ecfr.gov/current/title-5/ch
 
 ### Exceptions 
 
-In accordance with 5 U.S.C. 9202(c) and 5 C.F.R. 920.201, certain positions are exempt from the Fair Chance Act. The Fair Chance Act’s prohibition regarding criminal history inquiries before conditional offers of employment does not apply to:
+In accordance with <a href="https://www.govinfo.gov/content/pkg/USCODE-2022-title5/pdf/USCODE-2022-title5-partIII-subpartH-chap92-sec9202.pdf "> 5 U.S.C. 9202(c)</a> and <a href="https://www.ecfr.gov/current/title-5/chapter-I/subchapter-B/part-920/subpart-B/section-920.201 "> 5 C.F.R. 920.201</a>, certain positions are exempt from the Fair Chance Act. The Fair Chance Act’s prohibition regarding criminal history inquiries before conditional offers of employment does not apply to:
 
 * Applicants being appointed to positions that require a determination of eligibility for access to classified information;
 
