@@ -12,6 +12,7 @@ permalink: /careers/fair-chance/
 ## Fair Chance to Compete Act
 
 The Fair Chance to Compete for Jobs Act (Fair Chance Act) prohibits federal agencies and contractors acting on their behalf, from requesting an applicant’s criminal history record before that individual receives a conditional offer of employment. The Fair Chance Act ensures every applicant receives a fair chance at employment, allowing the merits of an individual, including their qualifications and skills, to be the primary criteria for hiring. The Fair Chance Act was designed help qualified workers with arrests or conviction records compete fairly for employment in federal agencies. 
+
 The regulations can be found in <a href="https://www.ecfr.gov/current/title-5/chapter-I/subchapter-B/part-920 ">5 Code of Federal Regulations (C.F.R.) Part 920</a>.
 
 ### Exceptions 
