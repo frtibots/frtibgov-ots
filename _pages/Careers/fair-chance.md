@@ -28,6 +28,7 @@ In accordance with <a href="https://www.govinfo.gov/content/pkg/USCODE-2022-titl
 ### How to File a Complaint
 
 Applicants who believe they have been subjected to a violation of the Fair Chance Act may submit a complaint to the Agency within 30 calendar days of the alleged violation. 
+
 The complaint must be written and submitted by email to <a href="mailto:HumanResourcesDivision@frtib.gov">HumanResourceDivision@frtib.gov</a> and you must include:
 
 * The name and contact information of the employee or contractor who made the contact with the applicant (if known);
