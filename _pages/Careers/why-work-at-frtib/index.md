@@ -17,9 +17,6 @@ To administer the TSP solely in the interest of the participants and beneficiari
 ### Core Values:
 Participant-Focused, Integrity, Collaboration
 
-### DEIA:
-FRTIB is committed to attracting as well as retaining a workforce of talented high performing staff that is inclusive and reflective of our participants.
-
 ### Flexible Work:  
 FRTIB offers multiple work schedule options and up to three (3) day per week Telework. Flexible schedules allow our employees the option to work on a schedule to balance employee and agency needs. IT support and resources enable collaboration with your team inside and outside of the office.
 
