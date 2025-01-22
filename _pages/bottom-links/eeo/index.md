@@ -30,8 +30,7 @@ Contact Randall Berry <br>
 * <Randall.Berry@frtib.gov> or Call
 * <a href="tel:202-942-1682">202-942-1682</a> (Office)
 
-A zip file containing all the PDFs in the drop-down below:
-{% include button-link url="/pdf/eeo.zip" text="EEO PDF files [ZIP]" -%}
+
 
 <h3 class="usa-sr-only">EEO documents</h3>
 <div class="usa-accordion">
