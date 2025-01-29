@@ -39,6 +39,10 @@
   title: 2006 TSP Satisfaction Survey [PDF]
   updated:
   desc: 2006
+- name: CY 2024 Participant Outreach Evaluation Summary.pdf
+  title: CY 2024 Participant Outreach Evaluation Summary [PDF]
+  updated: 2025-01-10
+  desc: CY 2024 Participant Outreach Evaluation Summary
 - name: CY23.pdf
   title: CY 2023 Participant Outreach Evaluation Summary [PDF]
   updated: 2024-01-04
@@ -525,6 +529,14 @@
   updated:
   desc: 2006 October Investment Option Review [PDF]
   title: 2006 October Investment Option Review [PDF]
+- name: No_FEAR_2025_Quarter1Activity.pdf
+  updated: 2025-01-10
+  title: 2025 Qtr 1 No FEAR Data [PDF]
+  desc: 2025 Qtr 1 No FEAR Data [PDF]
+- name: No_FEAR_2024_Quarter4Activity.pdf
+  updated: 2025-01-10
+  title: 2024 Qtr 4 No FEAR Data [PDF]
+  desc: 2024 Qtr 4 No FEAR Data [PDF]
 - name: No_FEAR_Act_Notice.pdf
   updated:
   title: No FEAR Act Notice [PDF]
@@ -653,6 +665,10 @@
   updated:
   title: FRTIB FY2013-2017 Strategic Plan  [PDF]
   desc: FRTIB FY2013-2017 Strategic Plan  [PDF]
+- name: 2024_FRTIB_FEVS_Results.pdf
+  updated: 2025-01-10
+  title: 2024 FRTIB FEVS Results [PDF]
+  desc: 2024 FRTIB FEVS Results [PDF]
 - name: 2023_FRTIB_FEVS_Results.pdf
   updated: 2024-01-23
   title: 2023 FRTIB FEVS Results [PDF]
@@ -1025,6 +1041,10 @@
   desc: Rules of Behavior for Accessing IT Systems [PDF]
 
 ## eeo section
+- name: Section 508 Compliance Procedures.pdf
+  updated: 2025-22-1
+  title: FRTIB OTS.531 Section 508 Compliance Procedures [PDF]
+  desc: FRTIB OTS.531 Section 508 Compliance Procedures [PDF]
 - name: Section 508 Compliance Procedures.pdf
   updated:
   title: ORM.531 - Section 508 Compliance Procedures [PDF]

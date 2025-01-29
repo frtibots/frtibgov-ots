@@ -17,15 +17,11 @@ To administer the TSP solely in the interest of the participants and beneficiari
 ### Core Values:
 Participant-Focused, Integrity, Collaboration
 
-### DEIA:
-FRTIB is committed to fostering diversity, equity, inclusion, and accessibility (DEIA) across the Agency. The Agency is also devoted to maintaining a work environment where equal access to employment opportunities is assured to all FRTIB employees and job applicants. FRTIB is equally dedicated to attracting as well as retaining a workforce of talented high performing staff that is inclusive and reflective of our participants.
-
 ### Flexible Work:  
 FRTIB offers multiple work schedule options and up to three (3) day per week Telework. Flexible schedules allow our employees the option to work on a schedule to balance employee and agency needs. IT support and resources enable collaboration with your team inside and outside of the office.
 
 ### Benefits:
 We provide our employees with a first-class benefit package, including health insurance, life insurance, retirement, 11 paid holidays per year, vacation time, and more! In addition, we offer training/career development opportunities, flexible work schedules, and an on-site fitness center.  
-
 
 
 
