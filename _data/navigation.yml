@@ -210,9 +210,9 @@ procurement_nav:
 onboarding_nav:
   - name: Onboarding
     url: /onboarding/
-  - name: Orientation
-    url: /onboarding/orientation/
-    button_text: "See orientation"
+  - name: %%Orientation
+    url: %%/onboarding/orientation/
+    button_text:%% "See orientation"
 
 
 search_nav:
