@@ -18,8 +18,7 @@ To administer the TSP solely in the interest of the participants and beneficiari
 Participant-Focused, Integrity, Collaboration
 
 ### Flexible Work:  
-FRTIB offers multiple work schedule options and up to three (3) day per week Telework. Flexible schedules allow our employees the option to work on a schedule to balance employee and agency needs. IT support and resources enable collaboration with your team inside and outside of the office.
-
+FRTIB offers flexible work schedules that give our employees options to balance agency and employee and needs.
 ### Benefits:
 We provide our employees with a first-class benefit package, including health insurance, life insurance, retirement, 11 paid holidays per year, vacation time, and more! In addition, we offer training/career development opportunities, flexible work schedules, and an on-site fitness center.  
 
