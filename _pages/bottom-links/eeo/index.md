@@ -16,7 +16,7 @@ redirect_from:
 
 ### Who May File a Complaint?
 
-FRTIB employees, former employees, and applicants for employment are protected under various laws from discrimination in hiring, promotion, removal, benefits, job training, classification, referral, and other aspects of employment, and have a right to file an EEO complaint if they believe they have been discriminated against on the basis of: RACE, COLOR, RELIGION, SEX (INCLUDING PREGNANCY, GENDER IDENTITY, AND SEXUAL ORIENTATION), NATIONAL ORIGIN, AGE, DISABILITY, GENETIC INFORMATION AND REPRISAL.
+FRTIB employees, former employees, and applicants for employment are protected under various laws from discrimination in hiring, promotion, removal, benefits, job training, classification, referral, and other aspects of employment, and have a right to file an EEO complaint if they believe they have been discriminated against on the basis of: RACE, COLOR, RELIGION, SEX (INCLUDING PREGNANCY, AND SEXUAL ORIENTATION), NATIONAL ORIGIN, AGE, DISABILITY, GENETIC INFORMATION AND REPRISAL.
 
 Religious and disability discrimination includes failure to reasonably accommodate an employee where the accommodation does not impose undue hardship. Additionally, reprisal entails retaliation against a person who files a charge of discrimination, participates in a discrimination proceeding, or otherwise opposes an unlawful employment practice.
 
