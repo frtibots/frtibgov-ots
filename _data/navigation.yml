@@ -140,10 +140,10 @@ rr_foia_nav:
     text: "Frequently Requested Records"
     button_text: "See records"
     image: FRTIB_Seal_White.png
-  - name: E-FOIA Requirements
-    url: /foia/requirements/
-    text: "E-FOIA Requirements"
-    button_text: "See requirements"
+  ##- name: E-FOIA Requirements
+    ##url: /foia/requirements/
+    ##text: "E-FOIA Requirements"
+    ##button_text: "See requirements"
     image: FRTIB_Seal_White.png
   - name: FOIA Fiscal Year Reports
     url: /foia/year/
