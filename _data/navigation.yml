@@ -80,7 +80,7 @@ reading_room_nav:
     image: rothVideo.png
   - name: FOIA
     url: /foia/
-    children: rr_foia_nav
+    ##children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
     button_text: "Visit the FOIA page"
     image: tsp_ad.gif
