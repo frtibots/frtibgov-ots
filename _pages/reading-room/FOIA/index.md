@@ -16,6 +16,56 @@ permalink: /foia/
 
 The Freedom of Information Act (FOIA) provides the public the right to request access to records from any federal agency. Federal agencies will disclose any information requested under the FOIA unless it falls under one of nine exemptions which protect interests such as personal privacy, national security, and law enforcement.
 
+##                                       FOIA Guidance
+                                      
+
+### How to make a FOIA request:
+
+
+
+FOIA requests may be submitted by one of the following methods:
+
+
+(1)	In writing addressed to FOIA Officer, Federal Retirement Thrift Investment Board, 77 K Street N.E., Suite 1000, Washington, DC 20002. The words ‘‘FOIA Request’’ must be clearly marked on both the letter and the envelope.
+
+(2)	By electronic mail to FOIAREQUEST@frtib.gov. 
+
+(3)	Online, through the National FOIA Portal at https://www.foia.gov. 
+
+
+
+The request should reasonably describe the records being sought, including, when known: the entity or individual originating the record, the date of the record, the subject matter, the type of document, the location of the record, and other pertinent information which would assist in locating the record(s).
+
+### FOIA Quicklinks
+
+•	  Submit a FOIA Request Online
+
+•	  FRTIB FOIA Regulations 
+
+•	  FOIA Statute 
+
+## FREQUENTLY REQUESTED RECORDS                                FOIA REPORTS 
+
+
+
+##                                                         FRTIB FOIA Personnel:
+  
+  Dharmesh Vashee
+  Chief FOIA Officer
+  
+  Peter Robbins
+  Principal FOIA Officer
+    
+  Stefanie George
+  FOIA Liaison 
+  FOIALiaison@frtib.gov
+
+  Amanda Haas 
+  FOIA Officer
+  202-942-1660
+  FOIARequest@frtib.gov
+
+
 <br>
 <br>
 <!-- cards starts here -->
