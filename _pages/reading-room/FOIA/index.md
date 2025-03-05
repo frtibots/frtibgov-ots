@@ -16,7 +16,7 @@ permalink: /foia/
 
 The Freedom of Information Act (FOIA) provides the public the right to request access to records from any federal agency. Federal agencies will disclose any information requested under the FOIA unless it falls under one of nine exemptions which protect interests such as personal privacy, national security, and law enforcement.
 
-##                                       FOIA Guidance
+#                                       FOIA Guidance
                                       
 
 ### How to make a FOIA request:
@@ -48,6 +48,19 @@ The request should reasonably describe the records being sought, including, when
 
 
 
+
+
+
+<br>
+<br>
+<!-- cards starts here -->
+<ul class="usa-card-group">
+{% for room in site.data.navigation.rr_foia_nav -%}
+{% include card-no-media heading=room.name button_link=room.url
+      xtext=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
+<!-- end of cards -->
 ##                                                         FRTIB FOIA Personnel:
   
   Dharmesh Vashee
@@ -64,17 +77,4 @@ The request should reasonably describe the records being sought, including, when
   FOIA Officer
   202-942-1660
   FOIARequest@frtib.gov
-
-
-<br>
-<br>
-<!-- cards starts here -->
-<ul class="usa-card-group">
-{% for room in site.data.navigation.rr_foia_nav -%}
-{% include card-no-media heading=room.name button_link=room.url
-      xtext=room.text button_text=room.button_text image=room.image -%}
-{% endfor -%}
-</ul>
-<!-- end of cards -->
-
 <!-- CONTENT END -->
