@@ -44,6 +44,23 @@ The request should reasonably describe the records being sought, including, when
 
 •	  FOIA Statute 
 
+##                                                         FRTIB FOIA Personnel:
+  
+  Dharmesh Vashee
+  Chief FOIA Officer
+  
+  Peter Robbins
+  Principal FOIA Officer
+    
+  Stefanie George
+  FOIA Liaison 
+  FOIALiaison@frtib.gov
+
+  Amanda Haas 
+  FOIA Officer
+  202-942-1660
+  FOIARequest@frtib.gov
+
 ## FREQUENTLY REQUESTED RECORDS                                FOIA REPORTS 
 
 
@@ -61,20 +78,5 @@ The request should reasonably describe the records being sought, including, when
 {% endfor -%}
 </ul>
 <!-- end of cards -->
-##                                                         FRTIB FOIA Personnel:
-  
-  Dharmesh Vashee
-  Chief FOIA Officer
-  
-  Peter Robbins
-  Principal FOIA Officer
-    
-  Stefanie George
-  FOIA Liaison 
-  FOIALiaison@frtib.gov
 
-  Amanda Haas 
-  FOIA Officer
-  202-942-1660
-  FOIARequest@frtib.gov
 <!-- CONTENT END -->
