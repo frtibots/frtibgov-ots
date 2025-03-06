@@ -45,20 +45,20 @@ The request should reasonably describe the records being sought, including, when
  •	  [FOIA Statute](https://www.govinfo.gov/content/pkg/USCODE-2012-title5/html/USCODE-2012-title5-partI-chap5-subchapII-sec552.htm){: target="_blank"}.
 ### FRTIB FOIA Personnel:
   
-##### Dharmesh Vashee , Chief FOIA Officer
+##### Dharmesh Vashee, Chief FOIA Officer
   
   
   
-##### Peter Robbins , Principal FOIA Officer
+##### Peter Robbins, Principal FOIA Officer
   
   
     
-##### Stefanie George , FOIA Liaison
+##### Stefanie George, FOIA Liaison
   
   email:
   <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
 
-##### Amanda Haas , FOIA Officer
+##### Amanda Haas, FOIA Officer
   
   202-942-1660 or email:
   <a href="mailto:FOIARequest@frtib.gov?subject= Question for FOIA Officer" target="_blank" rel="noopener">FOIA Officer</a>.
