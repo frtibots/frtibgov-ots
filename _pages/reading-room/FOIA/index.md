@@ -56,7 +56,7 @@ The request should reasonably describe the records being sought, including, when
   Stefanie George ,  FOIA Liaison
   
   202-864-8706
-  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
+  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">email FOIA Liaison</a>.
 
   Amanda Haas , 
   FOIA Officer
