@@ -233,6 +233,8 @@ search_nav:
 footer_nav:
   - name: Privacy Policy
     url: /privacy/
+  - name: FOIA
+    url: /FOIA/
   - name: No Fear Act
     url: /no-fear/
   - name: Fair Act
