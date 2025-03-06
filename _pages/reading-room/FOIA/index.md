@@ -40,7 +40,7 @@ The request should reasonably describe the records being sought, including, when
 
 •	   [Submit a FOIA Request Online](https://www.foia.gov/agency-search.html?id=a2f264a0-e089-47e4-832e-c8cd465d2421&type=component){: target="_blank"}.
 
-•	  [FRTIB FOIA Regulations](https://www.ecfr.gov/current/title-5/chapter-VI/part-1631)){: target="_blank"}.
+•	  [FRTIB FOIA Regulations](https://www.ecfr.gov/current/title-5/chapter-VI/part-1631){: target="_blank"}.
 
 •	  [FOIA Statute](https://www.govinfo.gov/content/pkg/USCODE-2012-title5/html/USCODE-2012-title5-partI-chap5-subchapII-sec552.htm){: target="_blank"}.
 ### FRTIB FOIA Personnel:
