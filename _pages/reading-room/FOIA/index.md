@@ -53,7 +53,7 @@ The request should reasonably describe the records being sought, including, when
     
   Stefanie George
   FOIA Liaison 
-  FOIALiaison@frtib.gov
+   <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
 
   Amanda Haas 
   FOIA Officer
