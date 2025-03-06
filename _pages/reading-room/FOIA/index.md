@@ -51,15 +51,17 @@ The request should reasonably describe the records being sought, including, when
   
   Peter Robbins ,
   Principal FOIA Officer
+  
   202-864-8589
     
   Stefanie George ,
   FOIA Liaison
+  
   202-864-8706
   
   <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
 
-  Amanda Haas 
+  Amanda Haas , 
   FOIA Officer
   202-942-1660
   
