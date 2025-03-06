@@ -45,8 +45,8 @@ The request should reasonably describe the records being sought, including, when
 •	  [FOIA Statute](https://www.govinfo.gov/content/pkg/USCODE-2012-title5/html/USCODE-2012-title5-partI-chap5-subchapII-sec552.htm){: target="_blank"}.
 ### FRTIB FOIA Personnel:
   
-  Dharmesh Vashee
-  Chief FOIA Officer
+  Dharmesh Vashee , Chief FOIA Officer
+  202-639-4424
   
   Peter Robbins
   Principal FOIA Officer
