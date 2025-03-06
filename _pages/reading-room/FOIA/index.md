@@ -44,7 +44,7 @@ The request should reasonably describe the records being sought, including, when
 
 •	  FOIA Statute 
 
-## FRTIB FOIA Personnel:
+### FRTIB FOIA Personnel:
   
   Dharmesh Vashee
   Chief FOIA Officer
@@ -61,7 +61,7 @@ The request should reasonably describe the records being sought, including, when
   202-942-1660
   FOIARequest@frtib.gov
 
-## FREQUENTLY REQUESTED RECORDS  FOIA REPORTS 
+### FREQUENTLY REQUESTED RECORDS  FOIA REPORTS 
 
 
 
