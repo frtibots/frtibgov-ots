@@ -16,10 +16,10 @@ permalink: /foia/
 
 The Freedom of Information Act (FOIA) provides the public the right to request access to records from any federal agency. Federal agencies will disclose any information requested under the FOIA unless it falls under one of nine exemptions which protect interests such as personal privacy, national security, and law enforcement.
 
-#                                       FOIA Guidance
+##                                      FOIA Guidance
                                       
 
-### How to make a FOIA request:
+## How to make a FOIA request:
 
 
 
