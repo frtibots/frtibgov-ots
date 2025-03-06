@@ -30,7 +30,7 @@ FOIA requests may be submitted by one of the following methods:
 
 (2)	By electronic mail to <a href="mailto:FOIAREQUEST@frtib.gov?subject=FOIA REQUEST" target="_blank" rel="noopener">FOIA REQUEST</a>.
 
-(3)	Online, through the National FOIA Portal at [www.foia.gov] (https://www.foia.gov){: target="_blank"}.
+(3)	Online, through the National FOIA Portal at [www.foia.gov](https://www.foia.gov){: target="_blank"}.
 
 
 
