@@ -40,10 +40,8 @@ The request should reasonably describe the records being sought, including, when
 
 •	   [Submit a FOIA Request Online](https://www.foia.gov/agency-search.html?id=a2f264a0-e089-47e4-832e-c8cd465d2421&type=component){: target="_blank"}.
 
-•	  FRTIB FOIA Regulations [www.foia.gov](https://www.foia.gov){: target="_blank"}.
-
-•	  FOIA Statute [www.foia.gov](https://www.foia.gov){: target="_blank"}.
-
+•	  [FRTIB FOIA Regulations](https://www.foia.gov/agency-search.html?id=a2f264a0-e089-47e4-832e-c8cd465d2421&type=component){: target="_blank"}.
+•	  [FOIA Statute](https://www.foia.gov/agency-search.html?id=a2f264a0-e089-47e4-832e-c8cd465d2421&type=component){: target="_blank"}.
 ### FRTIB FOIA Personnel:
   
   Dharmesh Vashee
