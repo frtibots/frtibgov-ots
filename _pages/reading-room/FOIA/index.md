@@ -28,7 +28,7 @@ FOIA requests may be submitted by one of the following methods:
 
 (1)	In writing addressed to FOIA Officer, Federal Retirement Thrift Investment Board, 77 K Street N.E., Suite 1000, Washington, DC 20002. The words ‘‘FOIA Request’’ must be clearly marked on both the letter and the envelope.
 
-(2)	By electronic mail to FOIAREQUEST@frtib.gov. 
+(2)	By electronic mail to <a href="mailto:FOIAREQUEST@frtib.gov?subject=FOIA REQUEST" target="_blank" rel="noopener">FOIA REQUEST</a>.
 
 (3)	Online, through the National FOIA Portal at https://www.foia.gov. 
 
