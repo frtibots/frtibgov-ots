@@ -78,7 +78,7 @@ reading_room_nav:
     text: "Benchmark evaluations and investment option reviews"
     button_text: "Visit the Investment Benchmarks page"
     image: rothVideo.png
-  - name: FOIA
+  ##- name: FOIA
     url: /foia/
     ##children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
