@@ -50,12 +50,10 @@ The request should reasonably describe the records being sought, including, when
 ##### Peter Robbins, Principal FOIA Officer
   
 ##### Stefanie George, FOIA Liaison
-email:
-  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
+email:  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
 
 ##### Amanda Haas, FOIA Officer
-202-942-1660 or email:
-  <a href="mailto:FOIARequest@frtib.gov?subject= Question for FOIA Officer" target="_blank" rel="noopener">FOIA Officer</a>.
+202-942-1660 or email:  <a href="mailto:FOIARequest@frtib.gov?subject= Question for FOIA Officer" target="_blank" rel="noopener">FOIA Officer</a>.
 
 ### FREQUENTLY REQUESTED RECORDS and FOIA REPORTS 
 
