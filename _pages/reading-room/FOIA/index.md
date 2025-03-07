@@ -46,11 +46,13 @@ The request should reasonably describe the records being sought, including, when
 ### FRTIB FOIA Personnel:
   
 ##### Dharmesh Vashee, Chief FOIA Officer
+202-639-4424 or email:  <a href="mailto:dharmesh.vashee@frtib.gov?subject= Question for Chief FOIA Officer" target="_blank" rel="noopener">Chief FOIA Liaison</a>.
   
 ##### Peter Robbins, Principal FOIA Officer
+202-942-1660 or email:  <a href="mailto:peter.robbins@frtib.gov?subject= Question for Principal FOIA Liaison" target="_blank" rel="noopener">Principal FOIA Liaison</a>.
   
 ##### Stefanie George, FOIA Liaison
-email:  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
+202-864-8706 or email:  <a href="mailto:FOIALiaison@frtib.gov?subject= Question for FOIA Liaison" target="_blank" rel="noopener">FOIA Liaison</a>.
 
 ##### Amanda Haas, FOIA Officer
 202-942-1660 or email:  <a href="mailto:FOIARequest@frtib.gov?subject= Question for FOIA Officer" target="_blank" rel="noopener">FOIA Officer</a>.
