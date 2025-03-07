@@ -78,8 +78,8 @@ reading_room_nav:
     text: "Benchmark evaluations and investment option reviews"
     button_text: "Visit the Investment Benchmarks page"
     image: rothVideo.png
-  - name: FOIA
-    url: /foia/
+  ##- name: FOIA
+    ##url: /foia/
     ##children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
     button_text: "Visit the FOIA page"
@@ -233,6 +233,8 @@ search_nav:
 footer_nav:
   - name: Privacy Policy
     url: /privacy/
+  - name: FOIA
+    url: /foia/
   - name: No Fear Act
     url: /no-fear/
   - name: Fair Act
