@@ -45,7 +45,7 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDI5NTlmZjEtNDBmOS00MTQ2L
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,299328892#">1-202-599-1426,299328892#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,525175495#">1-202-599-1426,525175495#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
           <p>
