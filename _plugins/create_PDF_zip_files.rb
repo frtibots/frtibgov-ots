@@ -96,16 +96,16 @@ info_dir = "_pdf/onboarding/forms/information/downloads"
 # fetch_PDF "https://www.irs.gov/pub/irs-pdf/fw4.pdf", "fw4.pdf", forms_dir
 # fetch_PDF "https://www.tsp.gov/publications/tsp-1.pdf", "tsp-1.pdf", forms_dir
 # remote information PDFs in the onbaording/forms section
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/benefeds.pdf", "benefeds.pdf", info_dir
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/dental.pdf", "dental.pdf", info_dir
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/vision.pdf", "vision.pdf", info_dir
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fegli.pdf", "fegli.pdf", info_dir
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fehb.pdf", "fehb.pdf", info_dir
-fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsafeds.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/benefeds.pdf", "benefeds.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/dental.pdf", "dental.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/vision.pdf", "vision.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fegli.pdf", "fegli.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fehb.pdf", "fehb.pdf", info_dir
+# fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsafeds.pdf", info_dir
 # fetch_PDF "https://www.fsafeds.com/public/pdf/4289-FSAFEDS-New-Hire-Brochure.pdf", "4289-FSAFEDS-New-Hire-Brochure.pdf", info_dir
 
 
-make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
-make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
-make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
-make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+# make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
+# make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
+# make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
+# make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
