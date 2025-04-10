@@ -88,7 +88,7 @@ fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf2809.pdf", "sf2809.pdf", forms_d
 fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf2817.pdf", "sf2817.pdf", forms_dir
 fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf2823.pdf", "sf2823.pdf", forms_dir
 fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf3102.pdf", "sf3102.pdf", forms_dir
-fetch_PDF "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2017_D-4_Fill-In.pdf", "2017_D-4_Fill-In.pdf", forms_dir
+#fetch_PDF "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2017_D-4_Fill-In.pdf", "2017_D-4_Fill-In.pdf", forms_dir
 # fetch_PDF "https://marylandtaxes.gov/forms/22_forms/MW507.pdf", "MW507.pdf", forms_dir
 # fetch_PDF "https://marylandtaxes.gov/statepayroll/Static_Files/Employee_W4/2022_MW507M.pdf", "2022_MW507M.pdf", forms_dir
 # fetch_PDF "https://tax.virginia.gov/sites/default/files/taxforms/withholding/any/va-4-any.pdf", "va-4-any.pdf", forms_dir
@@ -108,4 +108,4 @@ fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsa
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
 make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
-#make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
