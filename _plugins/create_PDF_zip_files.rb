@@ -108,4 +108,4 @@ fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsa
 make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
 make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
 make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
-make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+#make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
