@@ -11,6 +11,8 @@ permalink: /careers/how-to-apply/
 
 Below is an overview of the federal hiring process. This process is utilized to assure that all applicants receive fair and equal opportunities.
 
+NOTE: Employees and Applicants needing to request Personal Assistant Services (PAS) should see FRTIB’s Reasonable Accommodation Procedures for more information.
+
 Contact your supervisor or your HR Specialist POC if you have additional questions.
 
 <!--start of process list -->
