@@ -16,7 +16,7 @@ redirect_from:
 
 ### Who May File a Complaint?
 
-FRTIB employees, former employees, and applicants for employment are protected under various laws from discrimination in hiring, promotion, removal, benefits, job training, classification, referral, and other aspects of employment, and have a right to file an EEO complaint if they believe they have been discriminated against on the basis of: RACE, COLOR, RELIGION, SEX (INCLUDING PREGNANCY, GENDER IDENTITY, AND SEXUAL ORIENTATION), NATIONAL ORIGIN, AGE, DISABILITY, GENETIC INFORMATION AND REPRISAL.
+FRTIB employees, former employees, and applicants for employment are protected under various laws from discrimination in hiring, promotion, removal, benefits, job training, classification, referral, and other aspects of employment, and have a right to file an EEO complaint if they believe they have been discriminated against on the basis of: RACE, COLOR, RELIGION, SEX (INCLUDING PREGNANCY, AND SEXUAL ORIENTATION), NATIONAL ORIGIN, AGE, DISABILITY, GENETIC INFORMATION AND REPRISAL.
 
 Religious and disability discrimination includes failure to reasonably accommodate an employee where the accommodation does not impose undue hardship. Additionally, reprisal entails retaliation against a person who files a charge of discrimination, participates in a discrimination proceeding, or otherwise opposes an unlawful employment practice.
 
@@ -26,12 +26,11 @@ You must file a complaint within 45 calendar days of the date of the matter alle
 
 ### How to File a Complaint
 
-Contact Don Sapp, FRTIB’s EEO Manager at<br>
-* <Donald.Sapp@frtib.gov> or
-* <a href="tel:202-864-8536">202-864-8536</a> (Office) <a href="tel:202-748-2422"> 202-748-2422</a> (Cell)
+Contact Randall Berry <br>
+* <Randall.Berry@frtib.gov> or Call
+* <a href="tel:202-942-1682">202-942-1682</a> (Office)
 
-A zip file containing all the PDFs in the drop-down below:
-{% include button-link url="/pdf/eeo.zip" text="EEO PDF files [ZIP]" -%}
+
 
 <h3 class="usa-sr-only">EEO documents</h3>
 <div class="usa-accordion">
