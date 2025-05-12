@@ -40,11 +40,7 @@ Contact Randall Berry <br>
 </div>
 
 <h3 class="usa-sr-only">508 Compliance documents</h3>
-<div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
-{% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
-{% include accordion/end  inList=false -%}
-</div>
+
 
 <h3 class="usa-sr-only">Anti-Harrassment documents</h3>
 <div class="usa-accordion">
