@@ -37,14 +37,22 @@ Contact Randall Berry <br>
 {% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
-<h3 class="usa-sr-only">508 Compliance documents</h3>
-<h3 class="usa-sr-only">Resonable Accomodations documents</h3>
 
 </div>
 
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
+{% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
+{% include accordion/end  inList=false -%}
 
+</div>
 
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
+{% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
+{% include accordion/end  inList=false -%}
 
+</div>
 
 
 
