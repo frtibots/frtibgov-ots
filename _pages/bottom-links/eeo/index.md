@@ -40,7 +40,7 @@ Contact Randall Berry <br>
 
 <h3 class="usa-sr-only">Reasonable Accommodation documents</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
+{% include accordion/start expanded=false divID="all-files" title="Download Reasonable Accommodation Documents" inList=false -%}
 
 <h3 class="usa-sr-only">508 compliance documents</h3>
 <div class="usa-accordion">
