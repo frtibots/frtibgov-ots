@@ -50,4 +50,12 @@ Contact Randall Berry <br>
 
 </div>
 
+<ul class="usa-card-group">
+{% for room in site.data.navigation.privacy_nav -%}
+{% if forloop.first -%}{% continue -%}{% endif -%}
+{% include card-no-media striped=true heading=room.name button_link=room.url
+      xtext=room.text button_text=room.button_text image=room.image -%}
+{% endfor -%}
+</ul>
+
 <!-- CONTENT END -->
