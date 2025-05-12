@@ -38,13 +38,15 @@ Contact Randall Berry <br>
 {% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 
+<h3 class="usa-sr-only">Reasonable Accommodation documents</h3>
+<div class="usa-accordion">
+
+<h3 class="usa-sr-only">508 compliance documents</h3>
+<div class="usa-accordion">
+
+<h3 class="usa-sr-only">Anti-Harassment documents</h3>
+<div class="usa-accordion">
+
 </div>
-### TEST 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true format='title' dobutton=true -%}
 
-### TEST
-{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true format='title' dobutton=true -%}
-
-### TEST
-{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true format='title' dobutton=true -%}
 <!-- CONTENT END -->
