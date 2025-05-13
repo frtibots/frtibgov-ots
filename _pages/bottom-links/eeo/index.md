@@ -52,6 +52,7 @@ Contact Randall Berry <br>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Anti-Harassment Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/Anti-Harass" format='title' dobutton=true -%}
+{% include accordion/end  inList=false -%}
 </div>
 
 
