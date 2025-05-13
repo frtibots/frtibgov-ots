@@ -37,7 +37,6 @@ Contact Randall Berry <br>
 {% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
-
 <h3 class="usa-sr-only">Reasonable Accommodation documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Reasonable Accommodation Documents" inList=false -%}
@@ -47,15 +46,9 @@ Contact Randall Berry <br>
 <h3 class="usa-sr-only">Anti-Harassment documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Anti-Harassment Documents" inList=false -%}
-
+{% include file-list coll="pdf" folder="/Anti-Harass" format='title' dobutton=true -%}
 </div>
 
-<ul class="usa-card-group">
-{% for room in site.data.navigation.privacy_nav -%}
-{% if forloop.first -%}{% continue -%}{% endif -%}
-{% include card-no-media striped=true heading=room.name button_link=room.url
-      xtext=room.text button_text=room.button_text image=room.image -%}
-{% endfor -%}
-</ul>
+
 
 <!-- CONTENT END -->
