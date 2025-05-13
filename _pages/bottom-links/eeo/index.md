@@ -43,6 +43,7 @@ Contact Randall Berry <br>
 <h3 class="usa-sr-only">508 compliance documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download 508 Compliance Documents" inList=false -%}
+{% include file-list coll="pdf" folder="/508-compliance" format='title' dobutton=true -%}
 <h3 class="usa-sr-only">Anti-Harassment documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="all-files" title="Download Anti-Harassment Documents" inList=false -%}
