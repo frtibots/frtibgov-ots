@@ -32,27 +32,26 @@ Contact Randall Berry <br>
 
 <h3 class="usa-sr-only">EEO documents</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download EEO Documents" inList=false -%}
+{% include accordion/start expanded=false divID="eeo-files" title="Download EEO Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/eeo" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 <h3 class="usa-sr-only">Reasonable Accommodation documents</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download Reasonable Accommodation Documents" inList=false -%}
+{% include accordion/start expanded=false divID="reasonable-accom-files" title="Download Reasonable Accommodation Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/reasonable-accom" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>  
 <h3 class="usa-sr-only">508 compliance documents</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download 508 Compliance Documents" inList=false -%}
+{% include accordion/start expanded=false divID="compliance-files" title="Download 508 Compliance Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/508-compliance" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 <h3 class="usa-sr-only">Anti-Harassment documents</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Download Anti-Harassment Documents" inList=false -%}
+{% include accordion/start expanded=false divID="anti-harassment-files" title="Download Anti-Harassment Documents" inList=false -%}
 {% include file-list coll="pdf" folder="/Anti-Harass" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
-
 <!-- CONTENT END -->
