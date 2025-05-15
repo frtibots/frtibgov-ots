@@ -17,6 +17,7 @@ for the once a year joint meeting.
 {% assign ETAC = "" -%}
 {% capture confURL -%}
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmMxYWQwNmEtODk0My00ZjkzLWE1NzEtN2ViMWI3MDgwYjEx%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
+{% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE    {% endcomment -%}
 
