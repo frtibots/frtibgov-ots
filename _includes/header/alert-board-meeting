@@ -13,8 +13,8 @@ for the once a year joint meeting.
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "224 596 272#" -%}
-{% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 
+{% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzdjODFhYmItMzM4OS00Zjg1LWJjZmMtY2VhMTZhNmQ5Zjk4%40thread.v2/0?context=%7b%22Tid%22%3a%223f6323b7-e3fd-4f35-b43d-1a7afae5910d%22%2c%22Oid%22%3a%221a441fb8-5318-4ad0-995b-f28a737f4128%22%7d
 {% endcapture -%}
