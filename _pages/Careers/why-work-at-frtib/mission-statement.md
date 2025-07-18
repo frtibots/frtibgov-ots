@@ -38,7 +38,7 @@ We ensure the security and financial integrity of the Thrift Savings Fund.
 We operate with independence and act ethically to carry out our fiduciary responsibility.
 
 #### Collaboration
-We value diversity and respect each other’s ideas and contributions.<br>
+We value and respect each other’s ideas and contributions.<br>
 We encourage open, candid dialogue and foster relationships based on trust and shared objectives. We build partnerships to achieve greater outcomes than we could alone.
 
 
