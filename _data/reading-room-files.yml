@@ -441,6 +441,10 @@
   title: 2012 Annual Report on Education Efforts [PDF]
 
 ## Annual Rerport to Congress
+- name: TSP-Annual-Report_2024.pdf
+  updated: 2025-07-02
+  desc: 2024 Report to Congress
+  title: 2024 Annual Report to Congress [PDF]
 - name: TSP-Annual-Report_2023.pdf
   updated: 2024-12-17
   desc: 2023 Report to Congress
@@ -1017,10 +1021,10 @@
   updated: 01-25-24
   title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
   desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
-- name: New_Employee_Handbook_20200817.pdf
+- ##name: New_Employee_Handbook_20200817.pdf
   updated:
-  title: New Employee Handbook [PDF]
-  desc: New Employee Handbook [PDF]
+  ##title: New Employee Handbook [PDF]
+  ##desc: New Employee Handbook [PDF]
 - name: New_Hire_One-Pager_TSP.pdf
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
@@ -1053,27 +1057,27 @@
   desc: Rules of Behavior for Accessing IT Systems [PDF]
 
 ## eeo section
-- name: Section 508 Compliance Procedures.pdf
+- name: FRTIB OTS.530 Section 508 Compliance Policy.pdf
   updated: 2025-22-1
-  title: FRTIB OTS.531 Section 508 Compliance Procedures [PDF]
-  desc: FRTIB OTS.531 Section 508 Compliance Procedures [PDF]
-- name: Section 508 Compliance Procedures.pdf
-  updated:
-  title: ORM.531 - Section 508 Compliance Procedures [PDF]
-  desc: ORM.531 - Section 508 Compliance Procedures [PDF]
+  title: FRTIB Section 508 Compliance Policy [PDF]
+  desc: FRTIB Section 508 Compliance Policy [PDF]
+- name: FRTIB OTS.531 Section 508 Compliance Procedures.pdf
+  updated: 2025-10-4
+  title: FRTIB Section 508 Compliance Procedures [PDF]
+  desc: FRTIB Section 508 Compliance Procedures [PDF]
 - name: Reasonable Accommodation FAQ.pdf
   updated:
   title: Reasonable Accomodation FAQs [PDF]
   desc: Reasonable Accomodation FAQs [PDF]
-- name: ORM.391 Reasonable Accommodation Procedures.pdf
-  updated:
-  title: ORM.391 - Reasonable Accomodation Procedures [PDF]
-  desc: ORM.391 - Reasonable Accomodation Procedures [PDF]
-- name: ORM.390 - Reasonable Accommodation Policy.pdf
-  updated:
-  title: ORM.390 - Reasonable Accomodation Policy [PDF]
-  desc: ORM.390 - Reasonable Accomodation Policy [PDF]
-- name: ORM.321 EEO Procedures.pdf
+- name: FRTIB ORM.391 Reasonable Accommodation Procedures.pdf
+  updated: 2025-10-4
+  title: FRTIB Reasonable Accomodation Procedures [PDF]
+  desc: FRTIB Reasonable Accomodation Procedures [PDF]
+- name: FRTIB ORM.390 Reasonable Accommodation Policy.pdf
+  updated: 2025-10-4
+  title: FRTIB Reasonable Accomodation Policy [PDF]
+  desc: FRTIB Reasonable Accomodation Policy [PDF]
+- name: FRTIB EEO Procedures.pdf
   updated:
   title: FRTIB EEO Procedures [PDF]
   desc: FRTIB EEO Procedures [PDF]
@@ -1082,14 +1086,14 @@
   title: ORM.320 - Equal Employment Opportunity Policy [PDF]
   desc: ORM.320 Equal Employment Opportunity Policy [PDF]
 - name: Mediation Brochure.pdf
-  updated:
+  updated: 2024
   title: Mediation Brochure [PDF]
   desc: Mediation Brochure [PDF]
-- name: Harassment Investigation Procedures.pdf
+- name: FRTIB Harassment Investigation Procedures.pdf
   updated:
   title: ORM.322 - Harassment Investigation Procedures [PDF]
   desc: ORM.322 - Harassment Investigation Procedures [PDF]
-- name: Harassment FAQs.pdf
+- name: Anti Harassment FAQs.pdf
   updated:
   title: Anti-Harrassment FAQs [PDF]
   desc: Anti-Harrassment FAQs [PDF]
@@ -1109,6 +1113,10 @@
   updated: 2023-05-25
   title: MD715 Affirmative Action Plan 2022 Report [PDF]
   desc: MD715 Affirmative Action Plan 2022 Report [PDF]
+- name: Executive Director's EEO Policy Statement.pdf
+  updated: 2025-04-09
+  title: Executive Director's EEO Policy Statement [PDF]
+  desc: Executive Director's EEO Policy Statement [PDF]
 - name: ED_FY_2023_EEO_Policy_Statement.pdf
   updated: 2023-08-29
   title: FY2023 EEO Policy Statement [PDF]
@@ -1133,6 +1141,10 @@
   updated:
   title: COVID-19 Processing Information for EEO Directors [PDF]
   desc: COVID-19 Processing Information for EEO Directors [PDF]
+- name: Director's Anti Harassment Statement updated 2025.02.pdf
+  updated: 2025-04-08
+  title: Executive Director's Anti Harrassment Statement [PDF]
+  desc: Executive Director's Anti Harrassment Statement [PDF]
 - name: 2023_Anti_Harassment_Policy_Statement.pdf
   updated: 2023-08-29
   title: FY2023 Director's Anti-Harrassment Statement [PDF]
@@ -1141,7 +1153,10 @@
   updated:
   title: ORM.530 - Section 508 Policy (final) [PDF]
   desc: ORM.530 - Section 508 Policy (final) [PDF]
-
+- name: FRTIB Affirmative Action Plan - FY23.pdf
+  updated: 2025-04-18
+  title: FRTIB Affirmative Action Plan - FY2023 [PDF]
+  desc: FRTIB Affirmative Action Plan - FY2023 [PDF]
 
 # remote completion PDFs in the onbaording/forms section
 - name: i-9-paper-version.pdf
