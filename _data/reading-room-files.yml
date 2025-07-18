@@ -1021,10 +1021,10 @@
   updated: 01-25-24
   title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
   desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
-- name: New_Employee_Handbook_20200817.pdf
+- ##name: New_Employee_Handbook_20200817.pdf
   updated:
-  title: New Employee Handbook [PDF]
-  desc: New Employee Handbook [PDF]
+  ##title: New Employee Handbook [PDF]
+  ##desc: New Employee Handbook [PDF]
 - name: New_Hire_One-Pager_TSP.pdf
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
