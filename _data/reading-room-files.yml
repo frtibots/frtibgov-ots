@@ -441,6 +441,10 @@
   title: 2012 Annual Report on Education Efforts [PDF]
 
 ## Annual Rerport to Congress
+- name: TSP-Annual-Report_2024.pdf
+  updated: 2025-07-02
+  desc: 2024 Report to Congress
+  title: 2024 Annual Report to Congress [PDF]
 - name: TSP-Annual-Report_2023.pdf
   updated: 2024-12-17
   desc: 2023 Report to Congress
@@ -1017,10 +1021,10 @@
   updated: 01-25-24
   title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
   desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
-- name: New_Employee_Handbook_20200817.pdf
+- ##name: New_Employee_Handbook_20200817.pdf
   updated:
-  title: New Employee Handbook [PDF]
-  desc: New Employee Handbook [PDF]
+  ##title: New Employee Handbook [PDF]
+  ##desc: New Employee Handbook [PDF]
 - name: New_Hire_One-Pager_TSP.pdf
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
