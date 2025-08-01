@@ -5,12 +5,12 @@ styles:
 sidenav: onboarding_nav
 scripts:
 #  - /assets/js/jquery.min.js
-permalink: /onboarding/forms-offsite/
+permalink:
 #redirect_from:
 #  - /onboarding.html
 #document-ready:
 #  - getRate();
-##published: #false#
+published: false
 ---
 
 {% comment -%}
