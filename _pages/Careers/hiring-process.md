@@ -55,7 +55,7 @@ The hiring process steps are outlined below.  Contact your supervisor or your HR
 <li class="usa-process-list__item">
 <h2 class="usa-process-list__heading">Day one</h2>
 
-<p>Your first day with FRTIB. Your first morning with us will begin with <a href="https://www.frtib.gov/onboarding/" rel="noopener">onboarding and orientation.</a>.</p>
+<p>Your first day with FRTIB. Your first morning with us will begin with orientation. </p>
 </li>
 </ol>
 {% endcapture -%}
