@@ -21,11 +21,10 @@ FRTIB is committed to strengthening AI governance through the use of governance 
 
 #### ADVANCING EFFECTIVE AI INNOVATION
 
-FRTIB plans to leverage the National Institute of Standards and Technology (NIST) AI Risk Management framework to implement AI services in a secure and effective way. The Agency will utilize existing governance processes to identify innovative AI uses and work together with other internal governance bodies to ensure effective AI use.
+FRTIB leverages the National Institute of Standards and Technology (NIST) AI Risk Management framework to implement AI services in a secure and effective way. The Agency will utilize existing governance processes to identify innovative AI uses and work together with other internal governance bodies to ensure effective AI use.
 
 #### MANAGING RISKS FROM THE USE OF ARTIFICIAL INTELLIGENCE
 
-Leveraging the NIST AI Risk Management Framework as a guide, the Agency is focusing on developing an AI strategy, building out policies, procedures, and controls to mitigate risks. This combination of policies, processes, governance activities, and risk mitigation is aimed at ensuring safe and reasonable AI deployment and use at FRTIB.
-
+Leveraging the NIST AI Risk Management Framework as a guide, the Agency focused on developing an AI strategy, building out policies, procedures, and controls to mitigate risks. This combination of policies, processes, governance activities, and risk mitigation is aimed at ensuring safe and reasonable AI deployment and use at FRTIB.
 
 <!-- CONTENT END -->
