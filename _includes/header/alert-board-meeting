@@ -9,7 +9,7 @@ To add/remove the ETAC text to the modal switch lines 16/17. The second one, aft
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
 for the once a year joint meeting.
 {% endcomment -%}
-{% assign confDate = "Thursday, September 25<sup>th</sup>" -%}
+{% assign confDate = "Tuesday, October 28<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "402 943 617#" -%}
