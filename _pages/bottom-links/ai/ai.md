@@ -12,7 +12,7 @@ permalink: /ai/
 #  - getRate();
 ---
 
-### Federal Retirement Thrift Investment Board AI Plan – 09/2024
+### Federal Retirement Thrift Investment Board AI Plan – 09/2025
 
 The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) is taking steps to enhance its governance, innovation, and risk management for the use of Artificial Intelligence (AI). This signifies a meaningful step toward effective AI implementation in the Agency’s operations.
 
