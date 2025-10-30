@@ -1,45 +1,68 @@
 {% comment -%}
 Include one of the alerts in _includes/header/ folder from the _includes/header/main.html component.
-{% endcomment -%}
 
-{% assign confDate = "Tuesday, November 6<sup>th</sup>" -%}
+Include this version to account an upcoming board meeting.  Include alert-none instead to turn off this alert.
+
+Change only the conference date, time, phone, id, url, and dial in the following lines.
+
+To add/remove the ETAC text to the modal switch lines 16/17. The second one, after you edit, is the one that is used.
+So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
+for the once a year joint meeting.
+{% endcomment -%}
+{% assign confDate = "Tuesday, October 28<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "588 229 53#" -%}
-{% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
+{% assign confID = "402 943 617#" -%}
 
 {% capture confURL -%}
-https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NTIxMmMwZjItYTNmNi00YjEzLThiNjItNmE0Yzg5NzU3ZGVh%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&amp;type=meetup-join&amp;deeplinkId=53d18c5a-15f3-44e8-b329-d483a28d008b&amp;directDl=true&amp;msLaunch=true&amp;enableMobilePage=true&amp;suppressPrompt=true
+
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NTIxMmMwZjItYTNmNi00YjEzLThiNjItNmE0Yzg5NzU3ZGVh%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=53d18c5a-15f3-44e8-b329-d483a28d008b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
 {% endcapture -%}
+
+{% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
 
 {% capture confLink -%}
-<button class="usa-button thin on-card">{{confURL}}Board Meeting {{confDate}}</a></button>
+<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
 {% endcapture -%}
 
+{% assign alertHeader = include.alertHeader | default: "Special Notice: Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
 {% assign alertHeader = include.alertHeader | default: "Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
-{% assign alertIcon = "icon_redImportant.gif" -%}
 
+
+{% assign alertIcon = "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
-<img src="{{site.baseurl}}/assets/img/{{alertIcon}}" class="usa-banner__header-flag" alt="{{alertHeader}}" /></a>
+<img src="{{site.baseurl}}/assets/img/{{alertIcon}}" class="usa-banner__header-flag" alt="{{alertHeader}}" />{{alertHeader}}
+{% endcapture -%}
+
+<a id="alert-message-button" href="#header-alert-modal" class="usa-button alert-button" aria-controls="header-alert-modal" data-open-modal>{{alertTitle}}</a>
 <div class="usa-modal" id="header-alert-modal" aria-labelledby="alert-modal-heading" aria-describedby="alert-modal-description">
-  <div class="usa-modal__content">
-    <div class="usa-modal__main">
-      <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
-      <div class="usa-prose break-word" id="alert-modal-description">
-        <p>The Board {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
-        <p>Members of the public will not be allowed inside the building.</p>
-        <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
-        <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a href="tel:+12025991426,58822953">1-6,58822953#</a></li>
+    <div class="usa-modal__content">
+      <div class="usa-modal__main">
+        <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
+        <div class="usa-prose break-word"  id="alert-modal-description">
+
+          <p>The Board {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
+          <p>Members of the public will not be allowed inside the building.</p>
+          <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
+          <ol>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,402943617">1-202-599-1426,402943617#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
-        </ol>
-        <p>Attendees using the Teams link will be able to listen to the meeting and view the materials being discussed. Their lines will be muted.</p>
+          </ol>
+          <p>
+          Attendees using the Teams link will be able to listen to the meeting and view the materials
+          being discussed. Their lines will be muted.
+          </p>
+{% comment -%}
+          <p>
+          Pursuant to <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-C/section-102-3.105" target="_blank" rel="noopener">41 CFR 102–3.105(j)</a>, <a class="external_link" href="https://www.ecfr.gov/current/title-41/subtitle-C/chapter-102/subchapter-A/part-102-3/subpart-D/section-102-3.140" target="_blank" rel="noopener">41 CFR 102–3.140</a>, and <a class="external_link" href="https://uscode.house.gov/view.xhtml?hl=false&edition=2021&req=granuleid%3AUSC-2022-title5a-node2&num=0" target="_blank" rel="noopener">section 10(a)(3) of the Federal Advisory Committee Act</a>, interested parties may submit written statements in response to the stated agenda of the meeting, or to the Employee Thrift Advisory Council (ETAC), in general. Individuals may submit their comments to <a href="mailto:ETACComments@frtib.gov?subject=ETAC Comments" target="_blank" rel="noopener">ETACComments@frtib.gov</a>.
+          </p>
+{% endcomment -%}
+        </div>
       </div>
+      <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="../img/usa-icons/close.svg"></use>
+        </svg>
+      </button>
     </div>
-    <button class="usa-button usa-modal__close on-card" aria-label="Close this window" data-close-modal>
-      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-        ../img/usa-icons/close.svg</use>
-      </svg>
-    </button>
   </div>
-</div>
