@@ -13,7 +13,6 @@ for the once a year joint meeting.
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "402 943 617#" -%}
-{% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%} To Mention ETAC use this
 
 {% capture confURL -%}
 
