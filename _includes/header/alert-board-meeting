@@ -12,7 +12,7 @@ Example for line 16 is assign ETAC = "and the Employee Thrift Advisory Council (
 Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both front and back need the { % to work.
 
 {% endcomment -%}
-{% assign confDate = "Tuesday, November 6<sup>th</sup>" -%}
+{% assign confDate = "Thursday, November 6<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "58822953#" -%}
@@ -45,7 +45,7 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODcxOGVhNzktMWZhZi00ZDVmL
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
         <div class="usa-prose break-word"  id="alert-modal-description">
 
-          <p>The Board {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
+          <p> {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
