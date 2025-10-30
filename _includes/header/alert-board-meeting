@@ -29,8 +29,8 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
 <button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
 {% endcapture -%}
 
-{% assign alertHeader = include.alertHeader | default: "Special Notice: Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
-{% assign alertHeader = include.alertHeader | default: "Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
+{% assign alertHeader = include.alertHeader | default: "Special Notice: ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
+{% assign alertHeader = include.alertHeader | default: "ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
 
 
 {% assign alertIcon = "icon_redImportant.gif" -%}
