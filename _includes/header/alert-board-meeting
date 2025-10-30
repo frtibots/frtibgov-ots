@@ -28,11 +28,8 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODcxOGVhNzktMWZhZi00ZDVmL
 {% capture confLink -%}
 <button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
 {% endcapture -%}
-
 {% assign alertHeader = include.alertHeader | default: "Special Notice: ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
 {% assign alertHeader = include.alertHeader | default: "ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
-
-
 {% assign alertIcon = "icon_redImportant.gif" -%}
 {% capture alertTitle -%}
 <img src="{{site.baseurl}}/assets/img/{{alertIcon}}" class="usa-banner__header-flag" alt="{{alertHeader}}" />{{alertHeader}}
