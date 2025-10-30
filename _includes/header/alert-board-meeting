@@ -9,7 +9,7 @@ To add/remove the ETAC text to the modal switch lines 16/17. The second one, aft
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
 for the once a year joint meeting.
 {% endcomment -%}
-{% assign confDate = "Tuesday, October 28<sup>th</sup>" -%}
+{% assign confDate = "Tuesday, November 06<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "402 943 617#" -%}
@@ -22,11 +22,11 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
 
 {% capture confLink -%}
-<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
+<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">ETAC Meeting {{confDate}}</a></button>
 {% endcapture -%}
 
-{% assign alertHeader = include.alertHeader | default: "Special Notice: Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
-{% assign alertHeader = include.alertHeader | default: "Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
+{% assign alertHeader = include.alertHeader | default: "Special Notice: ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
+{% assign alertHeader = include.alertHeader | default: "ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
 
 
 {% assign alertIcon = "icon_redImportant.gif" -%}
