@@ -26,7 +26,7 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODcxOGVhNzktMWZhZi00ZDVmL
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
 
 {% capture confLink -%}
-<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
+<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">ETAC Meeting {{confDate}}</a></button>
 {% endcapture -%}
 
 {% assign alertHeader = include.alertHeader | default: "Special Notice: ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
