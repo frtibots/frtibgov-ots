@@ -16,9 +16,8 @@ Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both fron
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "699 114 845#" -%}
-#{% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
-#{% assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
-
+# assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
+# assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
 
 https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NDZmYWIzMTQtODkyNi00NDgyLWEyNTUtZTA1Y2M4MjMzNTgz%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=6c17f179-b3ac-4fbc-a7c4-23c66bb76ee2&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
@@ -46,7 +45,7 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
         <div class="usa-prose break-word"  id="alert-modal-description">
 
-          <p> {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
+          <p> {{Board}} will be meeting at {{confTime}} on {{confDate}}.</p>
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
