@@ -45,7 +45,7 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
         <div class="usa-prose break-word"  id="alert-modal-description">
 
-          <p> {{Board}} will be meeting at {{confTime}} on {{confDate}}.</p>
+          <p> {{Board}} FRTIB Board will be meeting at {{confTime}} on {{confDate}}.</p>
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
