@@ -13,7 +13,7 @@ Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both fron
 
 {% endcomment -%}
 {% assign confDate = "Thursday, November 20<sup>th</sup>" -%}
-{% assign confTime = "10:00 a.m." -%}
+{% assign confTime = "11:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "699 114 845#" -%}
 # assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
