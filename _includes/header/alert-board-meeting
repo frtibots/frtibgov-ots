@@ -12,7 +12,7 @@ Example for line 16 is assign ETAC = "and the Employee Thrift Advisory Council (
 Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both front and back need the { % to work.
 
 {% endcomment -%}
-{% assign confDate = "Thursday, November 20<sup>th</sup>" -%}
+{% assign confDate = "Thursday, December 18<sup>th</sup>" -%}
 {% assign confTime = "11:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
 {% assign confID = "699 114 845#" -%}
