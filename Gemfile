@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
 #  gem 'jekyll-assets', git: "https://github.com/envygeeks/jekyll-assets"
-  gem 'rubyzip', '~>2.3.0'
+  gem 'rubyzip', '~>3.2.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
