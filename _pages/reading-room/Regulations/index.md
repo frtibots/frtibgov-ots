@@ -15,7 +15,7 @@ redirect_from:
 
 ## Regulations
 
-The FRTIB issues regulations implementing the Federal Employees Retirement Systems Act.  The regulations cover both the FRTIB and the TSP.
+The FRTIB issues regulations implementing the Federal Employees' Retirement System Act.  The regulations cover both the FRTIB and the TSP.
 
 **Rules Governing the FRTIB**
 
