@@ -48,7 +48,7 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,156683720">1-202-599-1426,156683720#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,503014771">1-202-599-1426,503014771#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
           <p>
