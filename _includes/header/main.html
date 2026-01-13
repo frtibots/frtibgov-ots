@@ -1,11 +1,12 @@
 {% comment %}
 Extracted from original menu.html in the template.
-
+alert-none = off
+alert-board-meeting = on
 It looks like the upper right code is defined below the navigation so that it becomes part of menu when the screen is small.
 {% endcomment %}
 
 {% include header/official-website.html %}
-{% include header/alert-none %}
+{% include header/alert-board-meeting %}
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
     {% include header/logo.html %}
