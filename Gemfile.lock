@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
-    autoprefixer-rails (10.4.13.0)
+    autoprefixer-rails (10.4.21.0)
       execjs (~> 2)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
