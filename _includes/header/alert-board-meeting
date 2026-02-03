@@ -1,7 +1,7 @@
 {% comment -%}
 Include one of the alerts in _includes/header/ folder from the _includes/header/main.html component.
 
-Include this version to account an upcoming board meeting.  Include alert-none instead to turn off this alert.
+Include this version to account an upcoming board meeting. Include alert-none instead to turn off this alert.
 
 Change only the conference date, time, phone, id, url, and dial in the following lines.
 
@@ -19,7 +19,7 @@ Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both fron
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
-https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_OTNkODNjMGEtYmQzYi00YjBlLTg0ODUtYmE3NDljNTIxNmUy%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=b560bd97-0822-479e-b991-81f3b7ba789a&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_YWY1YjJiZjEtYjY2NS00ZDI1LThmODEtODRlMjQ4YWViYmYx%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=caf2e453-6d82-41e5-93d4-ac2ba4cd58cd&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
