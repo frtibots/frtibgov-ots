@@ -12,10 +12,10 @@ Example for line 16 is assign ETAC = "and the Employee Thrift Advisory Council (
 Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both front and back need the { % to work.
 
 {% endcomment -%}
-{% assign confDate = "Tuesday, January 27<sup>th</sup>" -%}
-{% assign confTime = "10:00 a.m." -%}
+{% assign confDate = "Tuesday, February 24<sup>th</sup>" -%}
+{% assign confTime = "11:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "503 014 771#" -%}
+{% assign confID = "771 202 863#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
@@ -48,7 +48,7 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,503014771">1-202-599-1426,503014771#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,771202863">1-202-599-1426,771202863#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
           <p>
