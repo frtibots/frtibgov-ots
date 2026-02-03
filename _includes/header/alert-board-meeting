@@ -1,7 +1,7 @@
 {% comment -%}
 Include one of the alerts in _includes/header/ folder from the _includes/header/main.html component.
 
-Include this version to account an upcoming board meeting.  Include alert-none instead to turn off this alert.
+Include this version to account an upcoming board meeting. Include alert-none instead to turn off this alert.
 
 Change only the conference date, time, phone, id, url, and dial in the following lines.
 
