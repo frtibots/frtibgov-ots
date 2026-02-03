@@ -6,7 +6,7 @@ Include this version to account an upcoming board meeting.  Include alert-none i
 Change only the conference date, time, phone, id, url, and dial in the following lines.
 
 To add/remove the ETAC text to the modal switch lines 16/17. The second one, after you edit, is the one that is used.
-So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
+So a value of "" means dont mention ETAC on the modal. The value with the ETAC text will show that text on the modal
 for the once a year joint meeting. 
 Example for line 16 is assign ETAC = "and the Employee Thrift Advisory Council (ETAC)"
 Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both front and back need the { % to work.
