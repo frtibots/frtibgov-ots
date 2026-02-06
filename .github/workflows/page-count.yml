@@ -1,1 +1,40 @@
-name: Page Count\n\non: [push]  \n\njobs:\n  page_count:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n      - name: Count Pages\n        run: ruby scripts/count_pages.rb > page-count.json\n      - name: Upload Page Count\n        uses: actions/upload-artifact@v2\n        with:\n          name: page-count\n          path: page-count.json\n
+name: Page Count
+
+on:
+  workflow_dispatch:      # lets you run it manually
+  push:
+    branches: [ main ]    # runs whenever main updates
+
+jobs:
+  count-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --destination _site
+
+      - name: Count pages (HTML + PDFs + docs)
+        env:
+          OUT_DIR: _site
+          WRITE_INVENTORY: "1"
+        run: ruby scripts/count_pages.rb > page-count.json
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: page-inventory
+          path: |
+            page-count.json
+            page-inventory.json
