@@ -78,9 +78,9 @@ reading_room_nav:
     text: "Benchmark evaluations and investment option reviews"
     button_text: "Visit the Investment Benchmarks page"
     image: rothVideo.png
-  - name: FOIA
-    url: /foia/
-    children: rr_foia_nav
+  ##- name: FOIA
+    ##url: /foia/
+    ##children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
     button_text: "Visit the FOIA page"
     image: tsp_ad.gif
@@ -140,10 +140,10 @@ rr_foia_nav:
     text: "Frequently Requested Records"
     button_text: "See records"
     image: FRTIB_Seal_White.png
-  - name: E-FOIA Requirements
-    url: /foia/requirements/
-    text: "E-FOIA Requirements"
-    button_text: "See requirements"
+  ##- name: E-FOIA Requirements
+    ##url: /foia/requirements/
+    ##text: "E-FOIA Requirements"
+    ##button_text: "See requirements"
     image: FRTIB_Seal_White.png
   - name: FOIA Fiscal Year Reports
     url: /foia/year/
@@ -170,6 +170,9 @@ careers_nav:
   - name: Hiring Process
     url: /careers/hiring-process/
     button_text: Hiring Process
+  - name: Fair Chance to Compete Act
+    url: /careers/fair-chance/
+    button_text: Fair Chance to Compete Act
 
 careers_work_nav:
   - name: Mission Statement
@@ -207,9 +210,7 @@ procurement_nav:
 onboarding_nav:
   - name: Onboarding
     url: /onboarding/
-  - name: Orientation
-    url: /onboarding/orientation/
-    button_text: "See orientation"
+  
 
 
 search_nav:
@@ -232,6 +233,8 @@ search_nav:
 footer_nav:
   - name: Privacy Policy
     url: /privacy/
+  - name: FOIA
+    url: /foia/
   - name: No Fear Act
     url: /no-fear/
   - name: Fair Act
