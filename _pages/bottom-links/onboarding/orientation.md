@@ -1,8 +1,8 @@
----
+%%---
 layout: page2
 title: Federal Orientation Materials
 styles:
-sidenav: onboarding_nav
+%%sidenav: onboarding_nav
 scripts:
 #  - /assets/js/jquery.min.js
 permalink: /onboarding/orientation/

@@ -39,6 +39,10 @@
   title: 2006 TSP Satisfaction Survey [PDF]
   updated:
   desc: 2006
+- name: CY 2024 Participant Outreach Evaluation Summary.pdf
+  title: CY 2024 Participant Outreach Evaluation Summary [PDF]
+  updated: 2025-01-10
+  desc: CY 2024 Participant Outreach Evaluation Summary
 - name: CY23.pdf
   title: CY 2023 Participant Outreach Evaluation Summary [PDF]
   updated: 2024-01-04
@@ -51,12 +55,16 @@
   title: CY 2018-2020 Participant Outreach Evaluation Summaries [PDF]
   updated: 2020-11-23
   desc: CY 2020-2021 Participant Outreach Evaluation Summaries
+- name: FRTIB 2025 Financial Wellness Survey.pdf
+  title: FRTIB 2025 Financial Wellness Survey [PDF]
+  updated: 2026-01-13
+  desc: 2025 Financial Wellness Survey
 - name: 2023_Financial_Wellness_Survey.pdf
-  title: 2023 Financial Wellness Survey [PDF]
+  title: FRTIB 2023 Financial Wellness Survey [PDF]
   updated: 2024-02-12
   desc: 2023 Financial Wellness Survey
 - name: 2020_Financial_Wellness_Survey.pdf
-  title: 2020 Financial Wellness Survey [PDF]
+  title: FRTIB 2020 Financial Wellness Survey [PDF]
   updated: 2021-06-24
   desc: 2020 Financial Wellness Survey
 - name: Participant-Behavior-and-Demographics-2019-2023.pdf
@@ -323,6 +331,10 @@
   updated:
   desc: 04/11/2012
   title: FRTIB Announces Launch Date for New Roth TSP Option [PDF]
+- name: TSP-FS-Dec2024.pdf.pdf
+  updated: 07/25/2025
+  desc: 2024 December Financial statement
+  title: 2024 December Financial Statement [PDF]
 - name: TSP-FS-Dec2023.pdf
   updated: 06/25/2024
   desc: 2023 December Financial statement
@@ -387,6 +399,10 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
+- name: Financial_Literacy_Rpt_2024.pdf
+  updated: 2025-08-14
+  desc: 2024 Education effort report to congress [PDF]
+  title: 2024 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2023.pdf
   updated: 2024-03-22
   desc: 2023 Education effort report to congress [PDF]
@@ -435,6 +451,16 @@
   updated: 2014-08-11
   desc: 2012 Education effort report to congress [PDF]
   title: 2012 Annual Report on Education Efforts [PDF]
+
+## Annual Rerport to Congress
+- name: TSP-Annual-Report_2024.pdf
+  updated: 2025-07-02
+  desc: 2024 Report to Congress
+  title: 2024 Annual Report to Congress [PDF]
+- name: TSP-Annual-Report_2023.pdf
+  updated: 2024-12-17
+  desc: 2023 Report to Congress
+  title: 2023 Annual Report to Congress [PDF]
 - name: TSP-Annual-Report_2022.pdf
   updated: 2023-06-29
   desc: 2022 Report to Congress
@@ -519,6 +545,18 @@
   updated:
   desc: 2006 October Investment Option Review [PDF]
   title: 2006 October Investment Option Review [PDF]
+- name: No_FEAR_2025_Quarter2Activity.pdf
+  updated: 2025-04-07
+  title: 2025 Qtr 2 No FEAR Data [PDF]
+  desc: 2025 Qtr 2 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter1Activity.pdf
+  updated: 2025-01-10
+  title: 2025 Qtr 1 No FEAR Data [PDF]
+  desc: 2025 Qtr 1 No FEAR Data [PDF]
+- name: No_FEAR_2024_Quarter4Activity.pdf
+  updated: 2025-01-10
+  title: 2024 Qtr 4 No FEAR Data [PDF]
+  desc: 2024 Qtr 4 No FEAR Data [PDF]
 - name: No_FEAR_Act_Notice.pdf
   updated:
   title: No FEAR Act Notice [PDF]
@@ -627,8 +665,14 @@
   updated:
   title: FRTIB IPv6 Policy [PDF]
   desc: FRTIB IPv6 Policy [PDF]
+  
+## Strategic Plan
+- name: FRTIB-FY2017-2021-Strategic-Plan-with-Addendum.pdf
+  updated: 2025-11-28
+  title: FRTIB FY2017-2021 Strategic Plan (Addendum) [PDF]
+  desc: FRTIB FY2017-2021 Strategic Plan (Addendum) [PDF]
 - name: FRTIB_FY22-26_Strategic_Plan.pdf
-  updated:
+  updated: 2025-11-28
   title: FRTIB FY2022-2026 Strategic Plan [PDF]
   desc: FRTIB FY2022-2026 Strategic Plan [PDF]
 - name: FRTIBStrategicPlan-2017-2021.pdf
@@ -647,6 +691,10 @@
   updated:
   title: FRTIB FY2013-2017 Strategic Plan  [PDF]
   desc: FRTIB FY2013-2017 Strategic Plan  [PDF]
+- name: 2024_FRTIB_FEVS_Results.pdf
+  updated: 2025-01-10
+  title: 2024 FRTIB FEVS Results [PDF]
+  desc: 2024 FRTIB FEVS Results [PDF]
 - name: 2023_FRTIB_FEVS_Results.pdf
   updated: 2024-01-23
   title: 2023 FRTIB FEVS Results [PDF]
@@ -721,6 +769,14 @@
   desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
+- name: foia-annual-report-2024.docx
+  updated: 2025-03-06
+  title: FY2024 FOIA Annual Report [DOCX]
+  desc: FY2024 FOIA Annual Report [DOCX]
+- name: foia-annual-report-2024.xml
+  updated: 2025-03-06
+  title: FY2024 FOIA Annual Report [XML]
+  desc: FY2024 FOIA Annual Report [XML]
 - name: foia-annual-report-2023.xml
   updated: 2024-03-22
   title: FY2023 FOIA Annual Report [XML]
@@ -983,10 +1039,10 @@
   updated: 01-25-24
   title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
   desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
-- name: New_Employee_Handbook_20200817.pdf
+- ##name: New_Employee_Handbook_20200817.pdf
   updated:
-  title: New Employee Handbook [PDF]
-  desc: New Employee Handbook [PDF]
+  ##title: New Employee Handbook [PDF]
+  ##desc: New Employee Handbook [PDF]
 - name: New_Hire_One-Pager_TSP.pdf
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
@@ -1019,39 +1075,43 @@
   desc: Rules of Behavior for Accessing IT Systems [PDF]
 
 ## eeo section
-- name: Section 508 Compliance Procedures.pdf
-  updated:
-  title: ORM.531 - Section 508 Compliance Procedures [PDF]
-  desc: ORM.531 - Section 508 Compliance Procedures [PDF]
+- name: FRTIB OTS.530 Section 508 Compliance Policy.pdf
+  updated: 2025-22-1
+  title: FRTIB Section 508 Compliance Policy [PDF]
+  desc: FRTIB Section 508 Compliance Policy [PDF]
+- name: FRTIB OTS.531 Section 508 Compliance Procedures.pdf
+  updated: 2025-10-4
+  title: FRTIB Section 508 Compliance Procedures [PDF]
+  desc: FRTIB Section 508 Compliance Procedures [PDF]
 - name: Reasonable Accommodation FAQ.pdf
   updated:
   title: Reasonable Accomodation FAQs [PDF]
   desc: Reasonable Accomodation FAQs [PDF]
-- name: ORM.391 Reasonable Accommodation Procedures.pdf
+- name: FRTIB ORM.391 Reasonable Accommodation Procedures.pdf
+  updated: 2025-10-4
+  title: FRTIB Reasonable Accomodation Procedures [PDF]
+  desc: FRTIB Reasonable Accomodation Procedures [PDF]
+- name: FRTIB ORM.390 Reasonable Accommodation Policy.pdf
+  updated: 2025-10-4
+  title: FRTIB Reasonable Accomodation Policy [PDF]
+  desc: FRTIB Reasonable Accomodation Policy [PDF]
+- name: FRTIB EEO Procedures.pdf
   updated:
-  title: ORM.391 - Reasonable Accomodation Procedures [PDF]
-  desc: ORM.391 - Reasonable Accomodation Procedures [PDF]
-- name: ORM.390 - Reasonable Accommodation Policy.pdf
-  updated:
-  title: ORM.390 - Reasonable Accomodation Policy [PDF]
-  desc: ORM.390 - Reasonable Accomodation Policy [PDF]
-- name: ORM.321 EEO Procedures.pdf
-  updated:
-  title: ORM.321 - EEO Procedures [PDF]
-  desc: ORM.321 - EEO Procedures [PDF]
+  title: FRTIB EEO Procedures [PDF]
+  desc: FRTIB EEO Procedures [PDF]
 - name: ORM.320 Equal Employment Opportunity EEO Policy.pdf
   updated:
   title: ORM.320 - Equal Employment Opportunity Policy [PDF]
   desc: ORM.320 Equal Employment Opportunity Policy [PDF]
 - name: Mediation Brochure.pdf
-  updated:
+  updated: 2024
   title: Mediation Brochure [PDF]
   desc: Mediation Brochure [PDF]
-- name: Harassment Investigation Procedures.pdf
+- name: FRTIB Harassment Investigation Procedures.pdf
   updated:
   title: ORM.322 - Harassment Investigation Procedures [PDF]
   desc: ORM.322 - Harassment Investigation Procedures [PDF]
-- name: Harassment FAQs.pdf
+- name: Anti Harassment FAQs.pdf
   updated:
   title: Anti-Harrassment FAQs [PDF]
   desc: Anti-Harrassment FAQs [PDF]
@@ -1063,7 +1123,7 @@
   updated:
   title: Harassment Complaint Form [PDF]
   desc: Harassment Complaint Form [PDF]
-- name: EEO Complaint Process Brochure.pdf
+- name: EEO Complaint Process Brochure 02 2025.pdf
   updated:
   title: EEO Complaint Process Brochure [PDF]
   desc: EEO Complaint Process Brochure [PDF]
@@ -1071,6 +1131,10 @@
   updated: 2023-05-25
   title: MD715 Affirmative Action Plan 2022 Report [PDF]
   desc: MD715 Affirmative Action Plan 2022 Report [PDF]
+- name: Executive Director's EEO Policy Statement.pdf
+  updated: 2025-04-09
+  title: Executive Director's EEO Policy Statement [PDF]
+  desc: Executive Director's EEO Policy Statement [PDF]
 - name: ED_FY_2023_EEO_Policy_Statement.pdf
   updated: 2023-08-29
   title: FY2023 EEO Policy Statement [PDF]
@@ -1087,14 +1151,18 @@
   updated:
   title: EEO Complaint Processing Procedures [PDF]
   desc: EEO Complaint Processing Procedures [PDF]
-- name: Alternative Dispute Resolution Brochure.pdf
+- name: Alternative Dispute Resolution Brochure update 2 2025.pdf
   updated:
-  title: (ADR) Alternative Dispute Resolution Brochure [PDF]
-  desc: (ADR) Alternative Dispute Resolution Brochure [PDF]
+  title: Alternative Dispute Resolution (ADR) Brochure [PDF]
+  desc: Alternative Dispute Resolution ADR) Brochure [PDF]
 - name: 2020_COVID-19_Processing_Information_for_EEO_Directors.pdf
   updated:
   title: COVID-19 Processing Information for EEO Directors [PDF]
   desc: COVID-19 Processing Information for EEO Directors [PDF]
+- name: Director's Anti Harassment Statement updated 2025.02.pdf
+  updated: 2025-04-08
+  title: Executive Director's Anti Harrassment Statement [PDF]
+  desc: Executive Director's Anti Harrassment Statement [PDF]
 - name: 2023_Anti_Harassment_Policy_Statement.pdf
   updated: 2023-08-29
   title: FY2023 Director's Anti-Harrassment Statement [PDF]
@@ -1103,7 +1171,10 @@
   updated:
   title: ORM.530 - Section 508 Policy (final) [PDF]
   desc: ORM.530 - Section 508 Policy (final) [PDF]
-
+- name: FRTIB Affirmative Action Plan - FY23.pdf
+  updated: 2025-04-18
+  title: FRTIB Affirmative Action Plan - FY2023 [PDF]
+  desc: FRTIB Affirmative Action Plan - FY2023 [PDF]
 
 # remote completion PDFs in the onbaording/forms section
 - name: i-9-paper-version.pdf
