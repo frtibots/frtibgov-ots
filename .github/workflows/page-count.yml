@@ -19,6 +19,8 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      # Optional: With bundler-cache: true, this step is usually unnecessary,
+      # but keeping it is fine if you prefer explicit installs.
       - name: Install dependencies
         run: bundle install
 
@@ -38,3 +40,4 @@ jobs:
           path: |
             page-count.json
             page-inventory.json
+``
