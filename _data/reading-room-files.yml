@@ -55,12 +55,16 @@
   title: CY 2018-2020 Participant Outreach Evaluation Summaries [PDF]
   updated: 2020-11-23
   desc: CY 2020-2021 Participant Outreach Evaluation Summaries
+- name: FRTIB 2025 Financial Wellness Survey.pdf
+  title: FRTIB 2025 Financial Wellness Survey [PDF]
+  updated: 2026-01-13
+  desc: 2025 Financial Wellness Survey
 - name: 2023_Financial_Wellness_Survey.pdf
-  title: 2023 Financial Wellness Survey [PDF]
+  title: FRTIB 2023 Financial Wellness Survey [PDF]
   updated: 2024-02-12
   desc: 2023 Financial Wellness Survey
 - name: 2020_Financial_Wellness_Survey.pdf
-  title: 2020 Financial Wellness Survey [PDF]
+  title: FRTIB 2020 Financial Wellness Survey [PDF]
   updated: 2021-06-24
   desc: 2020 Financial Wellness Survey
 - name: Participant-Behavior-and-Demographics-2019-2023.pdf
@@ -327,6 +331,10 @@
   updated:
   desc: 04/11/2012
   title: FRTIB Announces Launch Date for New Roth TSP Option [PDF]
+- name: TSP-FS-Dec2024.pdf.pdf
+  updated: 07/25/2025
+  desc: 2024 December Financial statement
+  title: 2024 December Financial Statement [PDF]
 - name: TSP-FS-Dec2023.pdf
   updated: 06/25/2024
   desc: 2023 December Financial statement
@@ -391,6 +399,10 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
+- name: Financial_Literacy_Rpt_2024.pdf
+  updated: 2025-08-14
+  desc: 2024 Education effort report to congress [PDF]
+  title: 2024 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2023.pdf
   updated: 2024-03-22
   desc: 2023 Education effort report to congress [PDF]
@@ -441,6 +453,10 @@
   title: 2012 Annual Report on Education Efforts [PDF]
 
 ## Annual Rerport to Congress
+- name: TSP-Annual-Report_2024.pdf
+  updated: 2025-07-02
+  desc: 2024 Report to Congress
+  title: 2024 Annual Report to Congress [PDF]
 - name: TSP-Annual-Report_2023.pdf
   updated: 2024-12-17
   desc: 2023 Report to Congress
@@ -649,8 +665,14 @@
   updated:
   title: FRTIB IPv6 Policy [PDF]
   desc: FRTIB IPv6 Policy [PDF]
+  
+## Strategic Plan
+- name: FRTIB-FY2017-2021-Strategic-Plan-with-Addendum.pdf
+  updated: 2025-11-28
+  title: FRTIB FY2017-2021 Strategic Plan (Addendum) [PDF]
+  desc: FRTIB FY2017-2021 Strategic Plan (Addendum) [PDF]
 - name: FRTIB_FY22-26_Strategic_Plan.pdf
-  updated:
+  updated: 2025-11-28
   title: FRTIB FY2022-2026 Strategic Plan [PDF]
   desc: FRTIB FY2022-2026 Strategic Plan [PDF]
 - name: FRTIBStrategicPlan-2017-2021.pdf
@@ -1017,10 +1039,10 @@
   updated: 01-25-24
   title: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
   desc: Mandatory Training for Supervisory Employees (FY 2024) [PDF]
-- name: New_Employee_Handbook_20200817.pdf
+- ##name: New_Employee_Handbook_20200817.pdf
   updated:
-  title: New Employee Handbook [PDF]
-  desc: New Employee Handbook [PDF]
+  ##title: New Employee Handbook [PDF]
+  ##desc: New Employee Handbook [PDF]
 - name: New_Hire_One-Pager_TSP.pdf
   updated:
   title: New Hire - Welcome to the Thrift Savings Plan (TSP) [PDF]
