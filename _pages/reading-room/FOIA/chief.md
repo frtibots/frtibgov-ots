@@ -16,13 +16,13 @@ permalink: /foia/chief/
 
 __Most recent:__
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" format='title' reverse=true dobutton=true count=2 -%}
+{%# include file-list coll="pdf" folder="/reading-room/FOIA/chief/" format='title' reverse=true dobutton=true count=2 -%}
 
 <h3 class="usa-sr-only">older Chief FOIA reports, descending by year</h3>
 <div class="usa-accordion">
-{% include accordion/start expanded=false divID="all-files" title="Previous Chief FOIA Reports" inList=false -%}
-{% include file-list coll="pdf" folder="/reading-room/FOIA/chief/" format='title' reverse=true dobutton=true dropTwo=true -%}
-{% include accordion/end  inList=false -%}
+{%# include accordion/start expanded=false divID="all-files" title="Previous Chief FOIA Reports" inList=false -%}
+{%# include file-list coll="pdf" folder="/reading-room/FOIA/chief/" format='title' reverse=true dobutton=true dropTwo=true -%}
+{%#include accordion/end  inList=false -%}
 </div>
 
 
