@@ -23,8 +23,6 @@ FRTIB Artificial Intelligence (AI) Use Cases:
 
 {% include file-list coll="pdf" folder="/artificial-intell/FRTIB-AI-Use-Case-Inventory.csv" format='title' reverse=true dobutton=true count=1 -%}
 
-_pdf/artificial-intell/FRTIB-AI-Use-Case-Inventory.csv
-
 
 
 
