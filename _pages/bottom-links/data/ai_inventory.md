@@ -22,7 +22,7 @@ In accordance with Section 5(e) of [Executive Order 13960](https://www.federalre
 FRTIB Artificial Intelligence (AI) Use Cases:
 
 <!--start accordion -->
-<h3 class="usa-sr-only">AVA Chatbot</h3>
+##<h3 class="usa-sr-only">AVA Chatbot</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="ai-AVA" title="AVA Chatbot" inList=false %}
 FRTIB's virtual assistant (AVA) uses artificial intelligence and natural language processing (NLP) to answer common retirement-related questions and help participants get information about their TSP plan through tsp.gov. Through natural language processing, AVA has the ability to refine and increase the accuracy of responses from the virtual assistant bot as more participants utilize the virtual assistant. For participants who are logged into their TSP Account, AVA also offers the ability to connect to a human representative via chat to augment any situations where AVA is unable to provide answers directly.
