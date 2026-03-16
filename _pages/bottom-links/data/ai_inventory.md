@@ -21,7 +21,7 @@ In accordance with Section 5(e) of [Executive Order 13960](https://www.federalre
 
 FRTIB Artificial Intelligence (AI) Use Cases:
 
-__Most Recent:__ {% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true count=1 -%}
+{% include file-list coll="pdf" folder="/reading-room/FinStmts" format='title' reverse=true dobutton=true count=1 -%}
 
 
 
