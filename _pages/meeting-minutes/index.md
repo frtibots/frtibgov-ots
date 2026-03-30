@@ -1,9 +1,18 @@
 ---
-layout: page
 title: Meeting Minutes
-last_update: {{ site.github.build_revision_date | date: "%b %-d, %Y" }}
+last_update: Mar 9th, 2026
 ---
 
 # Meeting Minutes
 
-Meeting notes go here.
+## Agenda
+- Discuss project updates
+- Review timelines
+
+## Attendees
+- Member A
+- Member B
+
+## Notes
+- Update on feature development
+- Discussion on project scope
