@@ -15,7 +15,7 @@ Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both fron
 {% assign confDate = "Tuesday, April 28<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "127 942 651#" -%}
+{% assign confID = "832 027 619#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
