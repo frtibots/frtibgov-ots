@@ -12,14 +12,14 @@ Example for line 16 is assign ETAC = "and the Employee Thrift Advisory Council (
 Line 17 is assign ETAC = "The Employee Thrift Advisory Council (ETAC)" both front and back need the { % to work.
 
 {% endcomment -%}
-{% assign confDate = "Tuesday, March 24<sup>th</sup>" -%}
+{% assign confDate = "Tuesday, April 28<sup>th</sup>" -%}
 {% assign confTime = "10:00 a.m." -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "127 942 651#" -%}
+{% assign confID = "832 027 619#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
 {% assign ETAC = "The Employee Thrift Advisory Council (ETAC)" -%}
 {% capture confURL -%}
-https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZTY0MjExNjUtZTY5OC00YzNkLThlNGUtOWQ5NDQ1ZTU0NDg0%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=1a280212-e2e2-4b1d-b8b4-997e3e4d2b49&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_OTMzYjY1MTItYTVkOC00YzkwLTk2M2MtNDczM2ZlNmM0OWNm%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=4e6329a2-692f-4a4f-8613-3fde47b338e7&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
 {% endcapture -%}
 
 {% comment -%}   DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
@@ -48,7 +48,7 @@ https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-j
           <p>Members of the public will not be allowed inside the building.</p>
           <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,127942651">1-202-599-1426,127942651#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,832027619">1-202-599-1426,832027619#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
           <p>
