@@ -28,7 +28,7 @@ GEM
       ffi (>= 1.15.0)
       logger
     eventmachine (1.2.7)
-    execjs (2.7.0)
+    execjs (2.10.1)
     ffi (1.17.4-x86_64-linux-gnu)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
@@ -133,7 +133,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  execjs (= 2.7.0)
+  execjs (= 2.10.1)
   html-proofer (~> 5.2)
   jekyll (~> 4.0)
   jekyll-feed (~> 0.15)
