@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
 #  gem 'jekyll-assets', git: "https://github.com/envygeeks/jekyll-assets"
-  gem 'rubyzip', '~>2.3.0'
+  gem 'rubyzip', '~>3.2.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -21,4 +21,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer", "~> 3.18"
+gem "html-proofer", "~> 5.2"

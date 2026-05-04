@@ -1,4 +1,9 @@
-# info about files in the reading room area
+## AI info
+- name: FRTIB-AI-Use-Case-Inventory.csv
+  title: FRTIB AI Use Case Inventory [CSV]
+  updated: 2026-03-16
+
+## info about files in the reading room area
 - name: TSP-Survey-Results-2024.pdf
   title: 2024 TSP Satisfaction Survey [PDF]
   updated: 2024-10-31
@@ -55,12 +60,16 @@
   title: CY 2018-2020 Participant Outreach Evaluation Summaries [PDF]
   updated: 2020-11-23
   desc: CY 2020-2021 Participant Outreach Evaluation Summaries
+- name: FRTIB 2025 Financial Wellness Survey.pdf
+  title: FRTIB 2025 Financial Wellness Survey [PDF]
+  updated: 2026-01-13
+  desc: 2025 Financial Wellness Survey
 - name: 2023_Financial_Wellness_Survey.pdf
-  title: 2023 Financial Wellness Survey [PDF]
+  title: FRTIB 2023 Financial Wellness Survey [PDF]
   updated: 2024-02-12
   desc: 2023 Financial Wellness Survey
 - name: 2020_Financial_Wellness_Survey.pdf
-  title: 2020 Financial Wellness Survey [PDF]
+  title: FRTIB 2020 Financial Wellness Survey [PDF]
   updated: 2021-06-24
   desc: 2020 Financial Wellness Survey
 - name: Participant-Behavior-and-Demographics-2019-2023.pdf
@@ -127,6 +136,10 @@
   title: TSP Fact Sheet - MFW June 2022 [PDF]
 
 ## Press releases
+- name: PR_2026-03-12_FRTIB Announcment of Mike Jerue as CIO.pdf
+  update: March 12, 2026
+  desc: 03/12/2026
+  title: FRTIB Announces the Selection of Mike Jerue as Chief Investment Officer [PDF]
 - name: PR_2023-11-14_I-Fund-Benchmark-Change.pdf
   updated: November 14, 2023
   desc: 11/14/2023
@@ -395,6 +408,10 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
+- name: Financial_Literacy_Rpt_2025.pdf
+  updated: 2026-03-25
+  desc: 2025 Education effort report to congress [PDF]
+  title: 2025 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2024.pdf
   updated: 2025-08-14
   desc: 2024 Education effort report to congress [PDF]
@@ -541,6 +558,24 @@
   updated:
   desc: 2006 October Investment Option Review [PDF]
   title: 2006 October Investment Option Review [PDF]
+
+## No Fear Act
+- name: No_FEAR_2026_Quarter1Activity.pdf
+  update: 2026-04-08
+  title: 2026 Qtr 1 No FEAR Data [PDF]
+  desc: 2026 Qtr 1 No FEAR Data [PDF]
+- name: No_FEAR_2026_Quarter2Activity.pdf
+  update: 2026-03-31
+  title: 2026 Qtr 2 No FEAR Data [PDF]
+  desc: 2026 Qtr 2 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter3Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 3 No FEAR Data [PDF]
+  desc: 2025 Qtr 3 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter4Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 4 No FEAR Data [PDF]
+  desc: 2025 Qtr 4 No FEAR Data [PDF]
 - name: No_FEAR_2025_Quarter2Activity.pdf
   updated: 2025-04-07
   title: 2025 Qtr 2 No FEAR Data [PDF]
@@ -765,6 +800,18 @@
   desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
+- name: FRTIB-FY2025-Chief-FOIA-Officer-Report.pdf
+  title: FY2025 Chief FOIA Officer Report [PDF]
+  update: 2026-03-16
+  desc: FY2025 Chief FOIA Officer Report [PDF]
+- name: foia-annual-report-2025.docx
+  updated: 2026-02-17
+  title: FY2025 FOIA Annual Report [DOCX]
+  desc: FY2025 FOIA Annual Report [DOCX]
+- name: foia-annual-report-2025.xml
+  updated: 2026-02-17
+  title: FY2025 FOIA Annual Report [XML]
+  desc: FY2025 FOIA Annual Report [XML]
 - name: foia-annual-report-2024.docx
   updated: 2025-03-06
   title: FY2024 FOIA Annual Report [DOCX]

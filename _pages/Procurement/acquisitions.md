@@ -57,7 +57,7 @@ The basic phases of the Acquisition process include:
 <!-- START Acquisition Thresholds -->
 ### Acquisition Thresholds
 
-FRTIB’s Micro Purchase Threshold (MPT) is $15,000; our Simplified Acquisition Threshold (SAT) is $250,000.
+FRTIB’s Micro Purchase Threshold (MPT) is $15,000; our Simplified Acquisition Threshold (SAT) is $350,000.
 
 <!--start accordion -->
 <div class="usa-accordion usa-accordion--bordered">
@@ -69,12 +69,12 @@ FRTIB’s Micro Purchase Threshold (MPT) is $15,000; our Simplified Acquisition 
 {% include accordion/end inList=false -%}
 
 {% include accordion/start expanded=false divID='accSAT' title='SAT' inList=false -%}
-* FRTIB uses simplified acquisition procedures for contracting requirements that are not complex in nature and are $250,000 or less.
+* FRTIB uses simplified acquisition procedures for contracting requirements that are not complex in nature and are $350,000 or less.
 * FRTIB issues requests for quotes from generally a minimum of three vendors.
 {% include accordion/end inList=false -%}
 
-{% include accordion/start expanded=false divID='acc250K' title='Contracts Greater than $250,000' inList=false -%}
-* FRTIB uses more formal contracting procedures for requirements that are complex and greater than $250,000.
+{% include accordion/start expanded=false divID='acc250K' title='Contracts Greater than $350,000' inList=false -%}
+* FRTIB uses more formal contracting procedures for requirements that are complex and greater than $350,000.
 * FRTIB issues formal solicitations and award contracts for these requirements.
 * FRTIB generally solicits a minimum of three firms.
 {% include accordion/end inList=false -%}
@@ -105,7 +105,7 @@ The discussions with each offeror in the competitive range should help the offer
 {% include accordion/start expanded=false divID='accSimplified' title='Simplified Acquisition Procedures' inList=false -%}
 Simplified Acquisitions use a set of procedures designed to make it easier to purchase supplies and services that are under certain thresholds by expediting the evaluation processes and keeping documentation to a minimum.
 
-FRTIB uses Simplified Acquisitions Procedures to the maximum extent practicable for all purchases of supplies and services not exceeding $250,000, the Simplified Acquisition Threshold (SAT).
+FRTIB uses Simplified Acquisitions Procedures to the maximum extent practicable for all purchases of supplies and services not exceeding $350,000, the Simplified Acquisition Threshold (SAT).
 {% include accordion/end inList=false -%}
 
 </div>
