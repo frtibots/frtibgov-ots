@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby '>= 3.1.4'
 
 gem "jekyll", "~> 4.4"
-gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
+gem "execjs", "2.10.1" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 
 group :jekyll_plugins do
