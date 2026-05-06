@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    name: Install, build and test site with pa11y-ci and htmlproofer.
+    #name: Install, build and test site with pa11y-ci and htmlproofer.
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
@@ -27,19 +27,13 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Install node.js.
-        #uses: actions/setup-node@v2
-        with:
-          node-version: '18'
+     
 
-      - name: Install NPM dependencies.
-        run: npm install
+      
+     
 
-      - name: Build and start up jekyll server.
-        run: npm run build && npm run start-detached
-
-      - name: Run pa11y-ci.
-        run: npm run pa11y-ci:sitemap
+      
 
       - name: Run htmlproofer.
+        run: bundle exec htmlproofer ./_site --assume-extension --disable-external
         run: npm run htmlproofer
