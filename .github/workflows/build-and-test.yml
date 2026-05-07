@@ -28,7 +28,7 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll build --trace
+        run: bundle exec jekyll build
 
       - name: Run htmlproofer
         run: bundle exec htmlproofer ./_site --assume-extension --disable-external
