@@ -1,8 +1,8 @@
 source "https://rubygems.org"
-ruby '>= 3.1.4'
+ruby "~> 3.1"
 
-gem "jekyll", "~> 4.0"
-gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
+gem "jekyll", "~> 4.3"
+gem "execjs", "2.10.1" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 
 group :jekyll_plugins do
@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
 #  gem 'jekyll-assets', git: "https://github.com/envygeeks/jekyll-assets"
-  gem 'rubyzip', '~>2.3.0'
+  gem 'rubyzip', '~>3.3.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
