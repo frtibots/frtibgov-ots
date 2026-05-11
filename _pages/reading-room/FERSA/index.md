@@ -13,9 +13,9 @@ redirect_from:
 #  - getRate();
 ---
 
-## Federal Employees Retirement System Act
+## Federal Employees' Retirement System Act
 
-Congress created the FRTIB and the TSP in the Federal Employees Retirement System (FERS) in 1986, which became effective on January 1, 1987.
+Congress created the FRTIB and the TSP in the Federal Employees' Retirement System (FERS) in 1986, which became effective on January 1, 1987.
 
 
 
