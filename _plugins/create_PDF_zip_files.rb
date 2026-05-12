@@ -83,7 +83,7 @@ def make_zip_file(directory_to_zip, output_file)
   zf = ZipFileGenerator.new(directory_to_zip, output_file)
   zf.write()
 end
-``
+
 
 if ENV["RUN_PDF_TASKS"] == "true"
   forms_dir = "_pdf/onboarding/forms/forms/downloads"
