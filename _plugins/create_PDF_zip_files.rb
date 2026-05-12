@@ -85,13 +85,13 @@ def make_zip_file(directory_to_zip, output_file)
 end
 ``
 
-forms_dir = "_pdf/onboarding/forms/forms/downloads"
-info_dir = "_pdf/onboarding/forms/information/downloads"
+if ENV["RUN_PDF_TASKS"] == "true"
+  forms_dir = "_pdf/onboarding/forms/forms/downloads"
+  info_dir  = "_pdf/onboarding/forms/information/downloads"
 
-# remote completion PDFs in the onbaording/forms section
+  # remote completion PDFs in the onboarding/forms section
   fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf1152.pdf", "sf1152.pdf", forms_dir
-# fetch_PDF "https://www.gsa.gov/Forms/TrackForm/32810", "sf1199a.pdf", forms_dir
   fetch_PDF "https://www.gsa.gov/system/files/SF1199A-20.pdf", "sf1199a.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf144.pdf", "sf144.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf181.pdf", "sf181.pdf", forms_dir
@@ -100,27 +100,19 @@ info_dir = "_pdf/onboarding/forms/information/downloads"
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf2817.pdf", "sf2817.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf2823.pdf", "sf2823.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf3102.pdf", "sf3102.pdf", forms_dir
-# fetch_PDF "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2017_D-4_Fill-In.pdf", "2017_D-4_Fill-In.pdf", forms_dir
-# fetch_PDF "https://marylandtaxes.gov/forms/22_forms/MW507.pdf", "MW507.pdf", forms_dir
-# fetch_PDF "https://marylandtaxes.gov/statepayroll/Static_Files/Employee_W4/2022_MW507M.pdf", "2022_MW507M.pdf", forms_dir
-# fetch_PDF "https://tax.virginia.gov/sites/default/files/taxforms/withholding/any/va-4-any.pdf", "va-4-any.pdf", forms_dir
   fetch_PDF "https://www.tax.virginia.gov/sites/default/files/taxforms/withholding/any/va-4-any.pdf", "va-4-any.pdf", forms_dir
   fetch_PDF "https://www.irs.gov/pub/irs-pdf/fw4.pdf", "fw4.pdf", forms_dir
-# fetch_PDF "https://www.tsp.gov/publications/tsp-1.pdf", "tsp-1.pdf", forms_dir
-# remote information PDFs in the onbaording/forms section
+
+  # remote information PDFs in the onboarding/forms section
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/benefeds.pdf", "benefeds.pdf", info_dir
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/dental.pdf", "dental.pdf", info_dir
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/vision.pdf", "vision.pdf", info_dir
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fegli.pdf", "fegli.pdf", info_dir
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fehb.pdf", "fehb.pdf", info_dir
   fetch_PDF "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsafeds.pdf", info_dir
-  else
-  Jekyll.logger.info("PDF fetch", "Skipped remote downloads (FETCH_REMOTE_PDFS not set)")
+
+  make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+else
+  Jekyll.logger.info("PDF tasks", "Skipped (set RUN_PDF_TASKS=true to enable)")
 end
-# fetch_PDF  "https://www.fsafeds.com/public/pdf/4289-FSAFEDS-New-Hire-Brochure.pdf", "4289-FSAFEDS-New-Hire-Brochure.pdf", info_dir
-
-
-# make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
-# make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
-# make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
-make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+``
