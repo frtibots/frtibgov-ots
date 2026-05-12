@@ -1,17 +1,3 @@
-require 'zip'
-require 'open-uri'
-require
-
-# from https://github.com/rubyzip/rubyzip
-#
-# This is the example modified to zip the onboarding subfolders
-#
-#
-# Usage:
-#   directory_to_zip = "/tmp/input"
-#   output_file = "/tmp/out.zip"
-#   zf = ZipFileGenerator.new(directory_to_zip, output_file)
-#   zf.write()
 require "zip"
 require "open-uri"
 require "fileutils"
@@ -37,13 +23,11 @@ class ZipFileGenerator
       disk_file_path = File.join(@input_dir, zipfile_path)
 
       if File.directory? disk_file_path
-       # Skip any folder named _archive anywhere in the path
-next if zipfile_path.to_s.tr("\\", "/").split("/").include?("_archive")
-recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
-      if File.directory?(disk_file_path)
-        # don't recurse into _archive
-        next if zipfile_path.start_with?("_archive")
-        recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+        if zipfile_path.start_with?('_archive')
+          # dont recurse into _archive
+        else
+          recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+        end
       else
         put_into_archive(disk_file_path, zipfile, zipfile_path)
       end
@@ -56,24 +40,12 @@ recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
   end
 
   def put_into_archive(disk_file_path, zipfile, zipfile_path)
-  # Preserve relative path inside the zip to avoid duplicate filename collisions
-  zip_entry_path = zipfile_path.to_s.tr("\\", "/")
-
-  # If the entry already exists, replace it (safe for reruns)
-  if zipfile.find_entry(zip_entry_path)
-    zipfile.remove(zip_entry_path)
+    # puts disk_file_path + ' /// ' + zipfile_path + '  ///  ' + File.basename(zipfile_path)
     new_name = File.basename(zipfile_path)
     zipfile.add(new_name, disk_file_path)
   end
-
-  zipfile.add(zip_entry_path, disk_file_path)
-end
 end
 
-def fetch_PDF(pdf_url, pdf_name, pdf_dir)
-  FileUtils.mkdir_p(pdf_dir)
-
-  # Add a user agent to reduce 403s from sites blocking automated clients
 def fetch_pdf(pdf_url, pdf_name, pdf_dir)
   FileUtils.mkdir_p(pdf_dir)
 
@@ -82,16 +54,6 @@ def fetch_pdf(pdf_url, pdf_name, pdf_dir)
     "Accept" => "application/pdf"
   }
 
-  URI.open(pdf_url, headers) do |download|
-    File.open(File.join(pdf_dir, pdf_name), "wb") do |f|
-      IO.copy_stream(download, f)
-    end
-  end
-
-rescue OpenURI::HTTPError => e
-  Jekyll.logger.warn("PDF fetch", "Skipped #{pdf_url} (#{e.message})")
-rescue StandardError => e
-  Jekyll.logger.warn("PDF fetch", "Failed #{pdf_url} (#{e.class}: #{e.message})")
   begin
     URI.open(pdf_url, headers) do |remote|
       File.open(File.join(pdf_dir, pdf_name), "wb") do |file|
@@ -119,16 +81,12 @@ def make_zip_file(directory_to_zip, output_file)
   File.delete(output_file) if File.exist?(output_file)
 
   zf = ZipFileGenerator.new(directory_to_zip, output_file)
-  zf.write
-rescue StandardError => e
-  Jekyll.logger.warn("Zip", "Failed #{output_file} — #{e.class}: #{e.message}")
+  zf.write()
 end
 ``
 
 forms_dir = "_pdf/onboarding/forms/forms/downloads"
 info_dir = "_pdf/onboarding/forms/information/downloads"
-if ENV['fetch_remote_pdfs'] == 'true'
-info_dir  = "_pdf/onboarding/forms/information/downloads"
 
 # remote completion PDFs in the onbaording/forms section
   fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
