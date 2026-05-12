@@ -12,35 +12,38 @@ require
 #   output_file = "/tmp/out.zip"
 #   zf = ZipFileGenerator.new(directory_to_zip, output_file)
 #   zf.write()
+require "zip"
+require "open-uri"
+require "fileutils"
 
 class ZipFileGenerator
-  # Initialize with the directory to zip and the location of the output archive.
   def initialize(input_dir, output_file)
     @input_dir = input_dir
     @output_file = output_file
   end
 
-  # Zip the input directory.
   def write
     entries = Dir.entries(@input_dir) - %w[. ..]
-
     ::Zip::File.open(@output_file, ::Zip::File::CREATE) do |zipfile|
-      write_entries entries, '', zipfile
+      write_entries(entries, "", zipfile)
     end
   end
 
   private
 
-  # A helper method to make the recursion work.
   def write_entries(entries, path, zipfile)
     entries.each do |e|
-      zipfile_path = path == '' ? e : File.join(path, e)
+      zipfile_path = path == "" ? e : File.join(path, e)
       disk_file_path = File.join(@input_dir, zipfile_path)
 
       if File.directory? disk_file_path
        # Skip any folder named _archive anywhere in the path
 next if zipfile_path.to_s.tr("\\", "/").split("/").include?("_archive")
 recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+      if File.directory?(disk_file_path)
+        # don't recurse into _archive
+        next if zipfile_path.start_with?("_archive")
+        recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
       else
         put_into_archive(disk_file_path, zipfile, zipfile_path)
       end
@@ -48,9 +51,8 @@ recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
   end
 
   def recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
-    # zipfile.mkdir zipfile_path
     subdir = Dir.entries(disk_file_path) - %w[. ..]
-    write_entries subdir, zipfile_path, zipfile
+    write_entries(subdir, zipfile_path, zipfile)
   end
 
   def put_into_archive(disk_file_path, zipfile, zipfile_path)
@@ -60,6 +62,8 @@ recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
   # If the entry already exists, replace it (safe for reruns)
   if zipfile.find_entry(zip_entry_path)
     zipfile.remove(zip_entry_path)
+    new_name = File.basename(zipfile_path)
+    zipfile.add(new_name, disk_file_path)
   end
 
   zipfile.add(zip_entry_path, disk_file_path)
@@ -70,6 +74,9 @@ def fetch_PDF(pdf_url, pdf_name, pdf_dir)
   FileUtils.mkdir_p(pdf_dir)
 
   # Add a user agent to reduce 403s from sites blocking automated clients
+def fetch_pdf(pdf_url, pdf_name, pdf_dir)
+  FileUtils.mkdir_p(pdf_dir)
+
   headers = {
     "User-Agent" => "Mozilla/5.0 (compatible; frtibgov-ots-jekyll-build)",
     "Accept" => "application/pdf"
@@ -85,6 +92,21 @@ rescue OpenURI::HTTPError => e
   Jekyll.logger.warn("PDF fetch", "Skipped #{pdf_url} (#{e.message})")
 rescue StandardError => e
   Jekyll.logger.warn("PDF fetch", "Failed #{pdf_url} (#{e.class}: #{e.message})")
+  begin
+    URI.open(pdf_url, headers) do |remote|
+      File.open(File.join(pdf_dir, pdf_name), "wb") do |file|
+        IO.copy_stream(remote, file)
+      end
+    end
+    Jekyll.logger.info("PDF fetch", "Downloaded #{pdf_name}")
+    true
+  rescue OpenURI::HTTPError => e
+    Jekyll.logger.warn("PDF fetch", "Skipped #{pdf_url} (#{e.message})")
+    false
+  rescue StandardError => e
+    Jekyll.logger.warn("PDF fetch", "Failed #{pdf_url} (#{e.class}: #{e.message})")
+    false
+  end
 end
 
 def make_zip_file(directory_to_zip, output_file)
@@ -106,6 +128,8 @@ end
 forms_dir = "_pdf/onboarding/forms/forms/downloads"
 info_dir = "_pdf/onboarding/forms/information/downloads"
 if ENV['fetch_remote_pdfs'] == 'true'
+info_dir  = "_pdf/onboarding/forms/information/downloads"
+
 # remote completion PDFs in the onbaording/forms section
   fetch_PDF "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
   fetch_PDF "https://www.opm.gov/forms/pdf_fill/sf1152.pdf", "sf1152.pdf", forms_dir
