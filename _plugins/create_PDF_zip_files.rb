@@ -117,7 +117,6 @@ fetch_pdf "https://www.opm.gov/healthcare-insurance/fastfacts/fehb.pdf", "fehb.p
 fetch_pdf "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsafeds.pdf", info_dir
 # fetch_pdf "https://www.fsafeds.com/public/pdf/4289-FSAFEDS-New-Hire-Brochure.pdf", "4289-FSAFEDS-New-Hire-Brochure.pdf", info_dir
 
-
   make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
 else
   Jekyll.logger.info("PDF tasks", "Skipped (set RUN_PDF_TASKS=true to enable)")
