@@ -22,10 +22,12 @@ class ZipFileGenerator
       zipfile_path = path == "" ? e : File.join(path, e)
       disk_file_path = File.join(@input_dir, zipfile_path)
 
-      if File.directory?(disk_file_path)
-        # don't recurse into _archive
-        next if zipfile_path.start_with?("_archive")
-        recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+      if File.directory? disk_file_path
+        if zipfile_path.start_with?('_archive')
+          # dont recurse into _archive
+        else
+          recursively_deflate_directory(disk_file_path, zipfile, zipfile_path)
+        end
       else
         put_into_archive(disk_file_path, zipfile, zipfile_path)
       end
@@ -38,6 +40,7 @@ class ZipFileGenerator
   end
 
   def put_into_archive(disk_file_path, zipfile, zipfile_path)
+    # puts disk_file_path + ' /// ' + zipfile_path + '  ///  ' + File.basename(zipfile_path)
     new_name = File.basename(zipfile_path)
     zipfile.add(new_name, disk_file_path)
   end
@@ -69,13 +72,22 @@ def fetch_pdf(pdf_url, pdf_name, pdf_dir)
 end
 
 def make_zip_file(directory_to_zip, output_file)
-  File.delete(output_file) if File.exist?(output_file)
-  zf = ZipFileGenerator.new(directory_to_zip, output_file)
-  zf.write
-end
+  unless Dir.exist?(directory_to_zip)
+    Jekyll.logger.warn("Zip", "Skipped #{output_file} — missing directory #{directory_to_zip}")
+    return
+  end
 
-forms_dir = "_pdf/onboarding/forms/forms/downloads"
-info_dir  = "_pdf/onboarding/forms/information/downloads"
+  FileUtils.mkdir_p(File.dirname(output_file))
+  File.delete(output_file) if File.exist?(output_file)
+
+  zf = ZipFileGenerator.new(directory_to_zip, output_file)
+  zf.write()
+end
+``
+
+if ENV["RUN_PDF_TASKS"] == "true"
+  forms_dir = "_pdf/onboarding/forms/forms/downloads"
+  info_dir  = "_pdf/onboarding/forms/information/downloads"
 
 # remote completion PDFs in the onbaording/forms section
 fetch_pdf "https://www.uscis.gov/sites/default/files/document/forms/i-9-paper-version.pdf", "i-9-paper-version.pdf", forms_dir
@@ -106,7 +118,8 @@ fetch_pdf "https://www.opm.gov/healthcare-insurance/fastfacts/fsafeds.pdf", "fsa
 # fetch_pdf "https://www.fsafeds.com/public/pdf/4289-FSAFEDS-New-Hire-Brochure.pdf", "4289-FSAFEDS-New-Hire-Brochure.pdf", info_dir
 
 
-make_zip_file "_pdf/onboarding/forms/forms", "pdf/onboarding_forms.zip"
-make_zip_file "_pdf/onboarding/forms/information", "pdf/onboarding_info.zip"
-make_zip_file "_pdf/onboarding/orientation", "pdf/onboarding_orientation.zip"
-make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+  make_zip_file "_pdf/eeo/", "pdf/eeo.zip"
+else
+  Jekyll.logger.info("PDF tasks", "Skipped (set RUN_PDF_TASKS=true to enable)")
+end
+``
