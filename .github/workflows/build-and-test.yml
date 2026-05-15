@@ -13,6 +13,17 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
+        with:
+          submodules: false
+
+        -name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+          -namre: Install npm dependencies
+        run: npm ci
 
       - name: Setup ruby env
         run: |
@@ -28,7 +39,7 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
       
 
       - name: Run htmlproofer
