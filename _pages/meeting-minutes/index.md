@@ -23,7 +23,7 @@ redirect_from:
 Board meetings, which can be observed by the public, are generally held the 4<sup>th</sup> Tuesday of each month (except where noted on the current meeting calendar).
 {% endcapture -%}
 {% capture foot_text -%}
-{% include file-list coll="pdf" folder="/board-meetings/2025_Board_Meeting_Calendar.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
+{% include file-list coll="pdf" folder="/board-meetings/2026_Board_Meeting_Calendar.pdf" reverse=true format='title' dobutton=true count=1 button_style="on-card thin" -%}
 {% endcapture -%}
 {% include desc-box  card_body=body card_foot=foot_text
       card_img="hero/meetingminutes_headerL.png" altText="Record of FRTIB meeting minutes" -%}
