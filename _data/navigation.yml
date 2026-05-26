@@ -140,7 +140,7 @@ rr_foia_nav:
     text: "Frequently Requested Records"
     button_text: "See records"
     image: FRTIB_Seal_White.png
-  - name: Cheif FOIA Officer Reports
+  - name: Chief FOIA Officer Reports
     url: /foia/chief/
     text: "Chief FOIA Officer Reports"
     button_text: "See reports"
