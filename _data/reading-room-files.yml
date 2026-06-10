@@ -1,4 +1,9 @@
-# info about files in the reading room area
+## AI info
+- name: FRTIB-AI-Use-Case-Inventory.csv
+  title: FRTIB AI Use Case Inventory [CSV]
+  updated: 2026-03-16
+
+## info about files in the reading room area
 - name: TSP-Survey-Results-2024.pdf
   title: 2024 TSP Satisfaction Survey [PDF]
   updated: 2024-10-31
@@ -335,7 +340,11 @@
   updated:
   desc: 04/11/2012
   title: FRTIB Announces Launch Date for New Roth TSP Option [PDF]
-- name: TSP-FS-Dec2024.pdf.pdf
+- name: 2025 December Financial Statements.pdf
+  updated: 06/02/2026
+  desc: 2025 December Financial statement
+  title: 2025 December Financial Statement [PDF]
+- name: TSP-FS-Dec2024.pdf
   updated: 07/25/2025
   desc: 2024 December Financial statement
   title: 2024 December Financial Statement [PDF]
@@ -403,6 +412,10 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
+- name: Financial_Literacy_Rpt_2025.pdf
+  updated: 2026-03-25
+  desc: 2025 Education effort report to congress [PDF]
+  title: 2025 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2024.pdf
   updated: 2025-08-14
   desc: 2024 Education effort report to congress [PDF]
@@ -549,6 +562,24 @@
   updated:
   desc: 2006 October Investment Option Review [PDF]
   title: 2006 October Investment Option Review [PDF]
+
+## No Fear Act
+- name: No_FEAR_2026_Quarter1Activity.pdf
+  update: 2026-04-08
+  title: 2026 Qtr 1 No FEAR Data [PDF]
+  desc: 2026 Qtr 1 No FEAR Data [PDF]
+- name: No_FEAR_2026_Quarter2Activity.pdf
+  update: 2026-03-31
+  title: 2026 Qtr 2 No FEAR Data [PDF]
+  desc: 2026 Qtr 2 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter3Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 3 No FEAR Data [PDF]
+  desc: 2025 Qtr 3 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter4Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 4 No FEAR Data [PDF]
+  desc: 2025 Qtr 4 No FEAR Data [PDF]
 - name: No_FEAR_2025_Quarter2Activity.pdf
   updated: 2025-04-07
   title: 2025 Qtr 2 No FEAR Data [PDF]
@@ -773,9 +804,9 @@
   desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
-- name: FRTIB_FY2025_Cheif_FOIA_Officer_Report.pdf
-  update: 2026-03-16
+- name: FRTIB-FY2025-Chief-FOIA-Officer-Report.pdf
   title: FY2025 Chief FOIA Officer Report [PDF]
+  update: 2026-03-16
   desc: FY2025 Chief FOIA Officer Report [PDF]
 - name: foia-annual-report-2025.docx
   updated: 2026-02-17
