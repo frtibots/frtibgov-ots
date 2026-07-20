@@ -1,4 +1,9 @@
-# info about files in the reading room area
+## AI info
+- name: FRTIB-AI-Use-Case-Inventory.csv
+  title: FRTIB AI Use Case Inventory [CSV]
+  updated: 2026-03-16
+
+## info about files in the reading room area
 - name: TSP-Survey-Results-2024.pdf
   title: 2024 TSP Satisfaction Survey [PDF]
   updated: 2024-10-31
@@ -335,7 +340,11 @@
   updated:
   desc: 04/11/2012
   title: FRTIB Announces Launch Date for New Roth TSP Option [PDF]
-- name: TSP-FS-Dec2024.pdf.pdf
+- name: 2025 December Financial Statements.pdf
+  updated: 06/02/2026
+  desc: 2025 December Financial statement
+  title: 2025 December Financial Statement [PDF]
+- name: TSP-FS-Dec2024.pdf
   updated: 07/25/2025
   desc: 2024 December Financial statement
   title: 2024 December Financial Statement [PDF]
@@ -403,6 +412,10 @@
   updated:
   desc: Freedom of Information Act Guide [PDF]
   title: Freedom of Information Act Guide [PDF]
+- name: Financial_Literacy_Rpt_2025.pdf
+  updated: 2026-03-25
+  desc: 2025 Education effort report to congress [PDF]
+  title: 2025 Annual Report on Education Efforts [PDF]
 - name: Financial_Literacy_Rpt_2024.pdf
   updated: 2025-08-14
   desc: 2024 Education effort report to congress [PDF]
@@ -457,6 +470,10 @@
   title: 2012 Annual Report on Education Efforts [PDF]
 
 ## Annual Rerport to Congress
+- name: TSP-Annual-Report_2025.pdf
+  updated: 2026-07-15
+  desc: 2025 Report to Congress
+  title: 2025 Annual Report to Congress [PDF]
 - name: TSP-Annual-Report_2024.pdf
   updated: 2025-07-02
   desc: 2024 Report to Congress
@@ -549,6 +566,24 @@
   updated:
   desc: 2006 October Investment Option Review [PDF]
   title: 2006 October Investment Option Review [PDF]
+
+## No Fear Act
+- name: No_FEAR_2026_Quarter1Activity.pdf
+  update: 2026-04-08
+  title: 2026 Qtr 1 No FEAR Data [PDF]
+  desc: 2026 Qtr 1 No FEAR Data [PDF]
+- name: No_FEAR_2026_Quarter2Activity.pdf
+  update: 2026-03-31
+  title: 2026 Qtr 2 No FEAR Data [PDF]
+  desc: 2026 Qtr 2 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter3Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 3 No FEAR Data [PDF]
+  desc: 2025 Qtr 3 No FEAR Data [PDF]
+- name: No_FEAR_2025_Quarter4Activity.pdf
+  update: 2026-04-08
+  title: 2025 Qtr 4 No FEAR Data [PDF]
+  desc: 2025 Qtr 4 No FEAR Data [PDF]
 - name: No_FEAR_2025_Quarter2Activity.pdf
   updated: 2025-04-07
   title: 2025 Qtr 2 No FEAR Data [PDF]
@@ -773,9 +808,9 @@
   desc: 2021 FRTIB C-0003 Accenture Federal Services Contract [PDF]
 
 ## FOIA Annual
-- name: FRTIB_FY2025_Cheif_FOIA_Officer_Report.pdf
-  update: 2026-03-16
+- name: FRTIB-FY2025-Chief-FOIA-Officer-Report.pdf
   title: FY2025 Chief FOIA Officer Report [PDF]
+  update: 2026-03-16
   desc: FY2025 Chief FOIA Officer Report [PDF]
 - name: foia-annual-report-2025.docx
   updated: 2026-02-17
@@ -841,7 +876,7 @@
   desc: 2024 Board Meeting Calendar [PDF]
 
 ## board-members
-- name: ETAC_Roster_with_Addresses_for_FRTIB.gov_May_2023.pdf
+- name: ETAC_Roster_with_Addresses_for_FRTIB.gov_May_2026.pdf
   updated: 2023-05-04
   title: ETAC Roster [PDF]
   desc: ETAC Roster [PDF]
@@ -1148,7 +1183,7 @@
   title: MD715 Affirmative Action Plan 2022 Report [PDF]
   desc: MD715 Affirmative Action Plan 2022 Report [PDF]
 - name: Executive Director's EEO Policy Statement.pdf
-  updated: 2025-04-09
+  updated: 2026-06-16
   title: Executive Director's EEO Policy Statement [PDF]
   desc: Executive Director's EEO Policy Statement [PDF]
 - name: ED_FY_2023_EEO_Policy_Statement.pdf
@@ -1167,6 +1202,10 @@
   updated:
   title: EEO Complaint Processing Procedures [PDF]
   desc: EEO Complaint Processing Procedures [PDF]
+- name: ORM.321 EEO Procedures.pdf
+  updated: 2026-06-29
+  title: EEO Procedures [PDF]
+  desc: EEO Procedures [PDF]
 - name: Alternative Dispute Resolution Brochure update 2 2025.pdf
   updated:
   title: Alternative Dispute Resolution (ADR) Brochure [PDF]
@@ -1175,8 +1214,8 @@
   updated:
   title: COVID-19 Processing Information for EEO Directors [PDF]
   desc: COVID-19 Processing Information for EEO Directors [PDF]
-- name: Director's Anti Harassment Statement updated 2025.02.pdf
-  updated: 2025-04-08
+- name: Executive Director's Anti-Harassment Statement.pdf
+  updated: 2026-06-16
   title: Executive Director's Anti Harrassment Statement [PDF]
   desc: Executive Director's Anti Harrassment Statement [PDF]
 - name: 2023_Anti_Harassment_Policy_Statement.pdf
@@ -1283,3 +1322,7 @@
   updated: 2022-07-25
   title: (FSAFEDS) New Hire Brochure [PDF]
   desc: (FSAFEDS) New Hire Brochure [PDF]
+- name: FRTIB ORM.322 Harassment Investigation Procedures.pdf
+  updated: 2026-06-29
+  title: FRTIB ORM.322 Harassment Investigation Procedures [PDF]
+  desc: FRTIB ORM.322 Harassment Investigation Procedures [PDF]
