@@ -79,7 +79,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (4.7.0)
-    rubyzip (3.3.0)
+    rubyzip (3.4.1)
     safe_yaml (1.0.5)
     sass-embedded (1.99.0)
       google-protobuf (~> 4.31)
@@ -111,7 +111,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  rubyzip (~> 3.3.0)
+  rubyzip (~> 3.4.1)
   tzinfo-data
 
 RUBY VERSION
