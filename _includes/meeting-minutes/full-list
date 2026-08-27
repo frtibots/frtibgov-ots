@@ -1,60 +1,38 @@
 {% comment -%}
-Improved component to display the main meeting minutes files.
-Changes:
-- Guard for empty filelist
-- Use anchor with button classes instead of <button> inside <a>
-- Use relative_url for paths
-- Add rel="noopener" to external links
-- Simplify year grouping (no closeDiv hack)
-- Apply minYear/maxYear filtering earlier
-{%- endcomment %}
-
+Component to display the main meeting minutes files.
+{% endcomment -%}
 {% assign format = include.format | default: 'short' -%}
 {% assign maxYear = include.maxYear | default: 9999 -%}
 {% assign minYear = include.minYear | default: 1900 -%}
 
 {% include meeting-minutes/get-file-list theCollection='meeting_minutes' -%}
 
-{% if filelist == nil or filelist.size == 0 %}
-  <p>No meeting minutes available.</p>
-{% else %}
-  {% assign most_recent = filelist.first %}
-  {% assign most_recent_path = most_recent.path | replace_first: "_", "/" | relative_url %}
-  <p>
-    Most recent board meeting minutes:
-    <a class="usa-button meeting-minutes-button" href="{{ most_recent_path }}" target="_blank" rel="noopener">{{ most_recent.name }}</a>
-  </p>
+{% assign mmfile = filelist.first -%}
+{% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
+Most recent board meeting minutes:  <a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{filelist.first.name}}</button></a>
+Updated: {{page.last_update}}
 
-  <p>Updated: {{ page.last_update }}</p>
-
-  <h3 class="usa-sr-only">Meeting minutes grouped by year, ordered by month, descending</h3>
-
-  {% assign current_year = nil %}
-  {% for mmfile in filelist %}
-    {% assign fname = mmfile.name %}
-    {% assign curYear = fname | slice: 0, 4 %}
-    {% assign curYearNum = curYear | plus: 0 %}
-    {% if curYearNum > maxYear or curYearNum < minYear %}
-      {% continue %}
-    {% endif %}
-
-    {% if curYear != current_year %}
-      {% if current_year != nil %}
-          </ul></div></div>
-      {% endif %}
-      {% assign current_year = curYear %}
-      <div class="usa-accordion">
-      {% include accordion/start expanded=false divID=curYear title=curYear inList=false -%}
-      <ul class="usa-button-group">
-    {% endif %}
-
-    {% assign fpath = mmfile.path | replace_first: "_", "/" | relative_url %}
-    <li class="usa-button-group__item">
-      <a class="usa-button meeting-minutes-button" href="{{ fpath }}" target="_blank" rel="noopener">{{ fname }}</a>
-    </li>
-  {% endfor %}
-
-  {% if current_year != nil %}
-    </ul></div></div>
-  {% endif %}
-{% endif %}
+<h3 class="usa-sr-only">Meeting minutes grouped by year, ordered by month, descending</h3>
+{% assign year = '0000' -%}
+{% assign closeDiv = '' -%}
+{% for mmfile in filelist -%}
+{% assign fname = mmfile.name -%}
+{% assign curYear = fname | slice: 0, 4 -%}
+{% assign curYearNum = curYear | plus: 0 -%}
+{% if curYearNum > maxYear -%}{% continue %}{% endif -%}
+{% if curYearNum < minYear -%}{% continue %}{% endif -%}
+{% if curYear != year -%}
+{% assign year = curYear -%}
+{{closeDiv}}
+<div class="usa-accordion">
+{% include accordion/start expanded=false divID=curYear title=curYear inList=false -%}
+<ul class="usa-button-group">
+{% assign closeDiv = "</ul></div></div>" -%}
+{% endif -%}
+{% assign fpath = mmfile.path | replace_first: "_", "/" | prepend: site.baseurl -%}
+<li class="usa-button-group__item">
+{% comment -%}<p><a href="{{fpath}}" target="_blank">{{fname}}</a></p>{% endcomment -%}
+<a href="{{fpath}}" target="_blank"><button class="usa-button meeting-minutes-button">{{fname}}</button></a>
+</li>
+{% endfor -%}
+{{closeDiv}}
