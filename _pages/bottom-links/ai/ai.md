@@ -14,10 +14,11 @@ permalink: /ai/
 
 ### Federal Retirement Thrift Investment Board AI Plan – 09/2026
 
-The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) is taking steps to enhance its governance, innovation, and risk management for the use of Artificial Intelligence (AI). This signifies a meaningful step toward effective AI implementation in the Agency’s operations.
+The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) continues to advance its Artificial Intelligence (AI) program through a balanced approach focused on governance, responsible innovation, and risk management. Building on the foundations established in 2024 and 2025, FRTIB has implemented an AI Policy, AI Strategy, and AI Risk Management Framework (AI RMF) aligned with the National Institute of Standards and Technology (NIST) AI Risk Management Framework. These efforts support the safe, effective, and responsible adoption of AI across the Agency while ensuring compliance with federal requirements.
 
 #### STRENGTHENING AI GOVERNANCE
-FRTIB is committed to strengthening AI governance through the use of governance bodies, policies and procedures as well as an overarching strategy. Additionally, FRTIB maintains an [AI Use Case Inventory](https://www.frtib.gov/data/ai_inventory/){:rel="noopener noreferrer"}.
+
+FRTIB is committed to maintaining a strong AI governance program through established policies, procedures, governance processes, and oversight mechanisms. The Agency utilizes a designated governance body responsible for the review, oversight, and risk-informed evaluation of AI use cases to help ensure AI solutions are aligned with mission needs, legal and regulatory requirements, security and privacy expectations, and enterprise risk management objectives. FRTIB also maintains a public AI Use Case Inventory and continues to mature governance processes that promote transparency, accountability, and the responsible adoption of AI technologies.{:rel="noopener noreferrer"}.
 
 #### ADVANCING EFFECTIVE AI INNOVATION
 
