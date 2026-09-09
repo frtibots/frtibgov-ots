@@ -30,7 +30,7 @@ Contact Dave Anthony <br>
 * <Dave.Anthony@frtib.gov> or Call
 * <a href="tel:202-639-6830">202-639-6830</a> (Office)
 
-  Matters Covered by the EEO Complaint Process
+Matters Covered by the EEO Complaint Process
 The FRTIB EEO Office processes complaints of discrimination in accordance with 29 CFR §1614. This federal process applies to discrimination allegations based on protected classes under laws such as the Title VII of the Civil Rights Act when the matter involves:
 *	Employment with FRTIB; or
 *	Actions taken by FRTIB that affects employees or applicants for employment
