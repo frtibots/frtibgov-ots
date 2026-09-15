@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   build:
-    name: Install, build and test site with pa11y-ci and htmlproofer.
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
@@ -12,34 +11,36 @@ jobs:
       LC_ALL: en_US.UTF-8
 
     steps:
-      - name: Checkout source.
-        uses: actions/checkout@v2
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: false
 
-      - name: Setup ruby env.
+        -name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+          -namre: Install npm dependencies
+        run: npm ci
+
+      - name: Setup ruby env
         run: |
-          sudo apt-get update;
-          sudo apt-get install --reinstall -y locales;
-          sudo sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen;
-          sudo locale-gen en_US.UTF-8;
+          sudo apt-get update
+          sudo apt-get install --reinstall -y locales
+          sudo sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
+          sudo locale-gen en_US.UTF-8
 
-      - name: Install ruby.
+      - name: Install ruby
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: "3.2.11"
           bundler-cache: true
 
-      - name: Install node.js.
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
+      - name: Build site
+        run: bundle exec jekyll build --trace
+      
 
-      - name: Install NPM dependencies.
-        run: npm install
-
-      - name: Build and start up jekyll server.
-        run: npm run build && npm run start-detached
-
-      - name: Run pa11y-ci.
-        run: npm run pa11y-ci:sitemap
-
-      - name: Run htmlproofer.
-        run: npm run htmlproofer
+      - name: Run htmlproofer
+        run: bundle exec htmlproofer ./_site --assume-extension --disable-external

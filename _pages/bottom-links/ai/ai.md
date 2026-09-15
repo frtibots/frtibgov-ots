@@ -11,20 +11,12 @@ permalink: /ai/
 #document-ready:
 #  - getRate();
 ---
-
-### Federal Retirement Thrift Investment Board Compliance Plan for OMB Memoranda M-24-10 – 09/2024
-
-The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) is taking steps to comply with the AI in Government Act of 2020 and Office of Management and Budget (OMB) Memorandum M-24-10, Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence. Compliance with M-24-10 also signifies a meaningful step toward responsible Artificial Intelligence (AI) implementation in the Agency’s operations.
-
+### Federal Retirement Thrift Investment Board AI Plan – 09/2026
+The Federal Retirement Thrift Investment Board (FRTIB, or the Agency) continues to advance its Artificial Intelligence (AI) program through a balanced approach focused on governance, responsible innovation, and risk management. Building on the foundations established in 2024 and 2025, FRTIB has implemented an AI Policy, AI Strategy, and AI Risk Management Framework (AI RMF) aligned with the National Institute of Standards and Technology (NIST) AI Risk Management Framework. These efforts support the safe, effective, and responsible adoption of AI across the Agency while ensuring compliance with federal requirements.
 #### STRENGTHENING AI GOVERNANCE
-FRTIB is committed to strengthening AI governance through the use of governance bodies, policies and procedures as well as an overarching strategy. Additionally, FRTIB maintains an [AI Use Case Inventory](https://www.frtib.gov/data/ai_inventory/){:rel="noopener noreferrer"}.
-
+FRTIB is committed to maintaining a strong AI governance program through established policies, procedures, governance processes, and oversight mechanisms. The Agency utilizes a designated governance body responsible for the review, oversight, and risk-informed evaluation of AI use cases to help ensure AI solutions are aligned with mission needs, legal and regulatory requirements, security and privacy expectations, and enterprise risk management objectives. FRTIB also maintains a public [AI Use Case Inventory](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.frtib.gov%2Fdata%2Fai_inventory%2F&data=05%7C02%7CVictor.Lin%40FRTIB.GOV%7C2c2689ca89bf4855bd5408df09684f20%7C3f6323b7e3fd4f35b43d1a7afae5910d%7C0%7C0%7C639240015792501257%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=UScMyete38S5xcElep1M4wJhU2N1eAVFOh9yRCBoFUw%3D&reserved=0) and continues to mature governance processes that promote transparency, accountability, and the responsible adoption of AI technologies.
 #### ADVANCING RESPONSIBLE AI INNOVATION
-FRTIB plans to leverage the NIST’s AI Risk Management framework to implement AI services responsibly. The Agency will utilize existing governance processes to identify innovative AI uses and work together with other internal governance bodies to ensure responsible AI use.
-
-#### MANAGING RISKS FROM THE USE OF ARTIFICIAL INTELLIGENCE
-Leveraging the NIST AI Risk Management Framework as a guide, the Agency is focusing on developing an AI strategy, building out policies, procedures and controls to mitigate risks.  This combination of policies, processes, governance activities and risk mitigation is aimed at ensuring safe and reasonable AI deployment and use at FRTIB.
-
+FRTIB leverages its AI Strategy, governance processes, and established review mechanisms to identify, evaluate, pilot, and scale AI capabilities. The Agency supports innovation through structured governance reviews, pilot programs, workforce training, and collaboration across governance bodies to ensure AI solutions are aligned with mission needs, technically feasible, and implemented responsibly. This combination of policies, processes, governance activities, and risk mitigation is aimed at ensuring safe and reasonable AI deployment and use at FRTIB.
 
 
 
