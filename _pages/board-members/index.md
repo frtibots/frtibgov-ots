@@ -1,6 +1,6 @@
 ---
 layout: page2
-title: Board Members, Executive Director and ETAC
+title: Board Members | Executive Director | ETAC
 styles:
 sidenav:
 scripts:

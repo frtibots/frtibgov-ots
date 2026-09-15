@@ -1,0 +1,21 @@
+- name: Detect duplicate PDFs between pdf/ and _pdf/
+  shell: bash
+  run: |
+    set -euo pipefail
+    if [ -d "pdf" ] && [ -d "_pdf" ]; then
+      echo "Scanning for duplicate relative paths in pdf/ and _pdf/..."
+      dupes=$(comm -12 \
+        <(cd pdf  && find . -type f | sort) \
+        <(cd _pdf && find . -type f | sort) \
+        || true)
+
+      if [ -n "$dupes" ]; then
+        echo "::error::Duplicate PDFs found in BOTH pdf/ and _pdf/ (these will collide):"
+        echo "$dupes"
+        exit 1
+      else
+        echo "No duplicates found."
+      fi
+    else
+      echo "Skipping: pdf/ or _pdf/ folder missing."
+    fi
