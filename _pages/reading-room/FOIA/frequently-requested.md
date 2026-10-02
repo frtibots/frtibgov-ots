@@ -18,6 +18,6 @@ permalink: /foia/frequent/
 
 Blackrock and State Street:
 
-{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/" reverse=true format='title' dobutton=true -%}
+{% include file-list coll="pdf" folder="/reading-room/FOIA/frequent/black-state/" reverse=true format='title' dobutton=true -%}
 
 <!-- CONTENT END -->
