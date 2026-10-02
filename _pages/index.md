@@ -19,12 +19,12 @@ redirect_from:
 
 <!-- top area -->
 {% capture header -%}
-<span class="usa-hero__heading--alt">FRTIB Strategic Plan</span>FY 2022-2026
+<span class="usa-hero__heading--alt">FRTIB Strategic Plan</span>FY 2027-31
 {% endcapture -%}
 {% capture body -%}
 FRTIB’s mission is to help current and former civilian employees and members of the uniformed services prepare for their retirement years via the TSP.
 
-Download the  FY22-26 Strategic Plan to see our plans for the next five years.
+Download the  FY2027-31 Strategic Plan to see our plans for the next five years.
 
 <a class="usa-button on-card" href="{{site.baseurl}}/reading-room/strategic-plan/">View the Strategic Plan</a>
 {% endcapture -%}
