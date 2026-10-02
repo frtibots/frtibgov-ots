@@ -78,8 +78,8 @@ reading_room_nav:
     text: "Benchmark evaluations and investment option reviews"
     button_text: "Visit the Investment Benchmarks page"
     image: rothVideo.png
-  ##- name: FOIA
-    ##url: /foia/
+  - name: FOIA
+    url: /foia/
     ##children: rr_foia_nav
     text: "Frequently accessed records and FOIA requirements"
     button_text: "Visit the FOIA page"
@@ -140,6 +140,10 @@ rr_foia_nav:
     text: "Frequently Requested Records"
     button_text: "See records"
     image: FRTIB_Seal_White.png
+  - name: Chief FOIA Officer Reports
+    url: /foia/chief/
+    text: "Chief FOIA Officer Reports"
+    button_text: "See reports"
   ##- name: E-FOIA Requirements
     ##url: /foia/requirements/
     ##text: "E-FOIA Requirements"
