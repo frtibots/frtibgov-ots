@@ -7,7 +7,7 @@ scripts:
 #  - /assets/js/jquery.min.js
 permalink: /meeting-minutes/
 return_to_top: true
-last_update: August 27, 2026
+last_update: October 07, 2026
 redirect_from:
   - /MeetingMinutes.html
   - /MeetingMinutes/
