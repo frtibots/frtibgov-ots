@@ -9,23 +9,23 @@ To add/remove the ETAC text to the modal switch lines 16/17. The second one, aft
 So a value of "" means dont mention ETAC on the modal.  The value with the ETAC text will show that text on the modal
 for the once a year joint meeting.
 {% endcomment -%}
-{% assign confDate = "Tuesday, October 20<sup>th</sup>" -%}
-{% assign confTime = "10:00 a.m.EST" -%}
+{% assign confDate = "Tuesday, October 27<sup>th</sup>" -%}
+{% assign confTime = "09:00 a.m.EST" -%}
 {% assign confPhone = "1-202-599-1426" -%}
-{% assign confID = "773 638 657#" -%}
-{% assign ETAC = "" -%}
+{% assign confID = "192 871 229#" -%}
 {% assign ETAC = "and the Employee Thrift Advisory Council (ETAC)" -%}
-{% capture confURL -%}https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fmeet%2F281548548628023%3Fp%3D4hk225mzuefRmAeziQ%26anon%3Dtrue&type=meet&deeplinkId=aaa89ff0-9246-4ac9-a680-4ce82cfeae71&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true{% endcapture -%}
+{% assign ETAC = "" -%}
+{% capture confURL -%}https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_OTlkZTg4YWYtNDgyZS00ZmU2LTk0MmItNGZmOTAxZDcwYjNh%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25223f6323b7-e3fd-4f35-b43d-1a7afae5910d%2522%252c%2522Oid%2522%253a%25221a441fb8-5318-4ad0-995b-f28a737f4128%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=bdd060ca-ef72-416a-bd12-0441c7403ae6&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true{% endcapture -%}
 
 
 {% comment -%}  DO NOT CHANGE ANYTHING BELOW THIS LINE   {% endcomment -%}
 
 {% capture confLink -%}
-<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">ETAC Meeting {{confDate}}</a></button>
+<button class="usa-button thin on-card"><a href="{{confURL}}" target="_blank" rel="noopener" style="color: white">Board Meeting {{confDate}}</a></button>
 {% endcapture -%}
 
 {% assign alertHeader = include.alertHeader | default: "Special Notice: Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
-{% assign alertHeader = include.alertHeader | default: "ETAC Meeting " | append: confTime | append: ' ' | append: confDate -%}
+{% assign alertHeader = include.alertHeader | default: "Board Meeting " | append: confTime | append: ' ' | append: confDate -%}
 
 
 {% assign alertIcon = "icon_redImportant.gif" -%}
@@ -40,11 +40,11 @@ for the once a year joint meeting.
         <h2 class="usa-modal__heading" id="alert-modal-heading">{{alertTitle}}</h2>
         <div class="usa-prose break-word"  id="alert-modal-description">
 
-          <p>The ETAC {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
+          <p>The Board {{ETAC}} will be meeting at {{confTime}} on {{confDate}}.</p>
           <p>Members of the public will not be allowed inside the building.</p>
-          <p>Members of the public who are interested have 2 options to listen to the ETAC meeting:</p>
+          <p>Members of the public who are interested have 2 options to listen to the Board meeting:</p>
           <ol>
-          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,773638657#">1-202-599-1426,773638657#</a></li>
+          <li>By phone<br>&nbsp;&nbsp;{{confPhone}}<br>&nbsp;&nbsp;conference ID: {{confID}},<br>One-touch Dial: <a countrycode="+1" href="tel:+12025991426,605436724#">1-202-599-1426,605436724#</a></li>
           <li>By browser&nbsp;{{confLink}}<br>Click the above button and choose 'Continue on this browser'</li>
           </ol>
           <p>
