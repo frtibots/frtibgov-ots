@@ -21,10 +21,11 @@ Congress created the FRTIB and the TSP in the Federal Employees Retirement Syste
 
 The TSP is a retirement savings plan similar to the 401(k) plans offered by many private employers.  Participants include Federal civilian employees in all branches of Government, employees of the U.S. Postal Service, and members of the uniformed services.
 
-[Chapter 84 of Title 5 of the United States Code: Federal Employees' Retirement System](CHAPTER 84—FEDERAL EMPLOYEES’ RETIREMENT SYSTEM - Front Matter - US Code
+[Chapter 84 - FEDERAL EMPLOYEES' RETIREMENT SYSTEM - US Code](https://uscode.house.gov/us/usc/119-121/t5/partIII-subpartG-chapter84-front.html){:target="_blank"}{: rel="noopener"}
+[5 U.S.C. § 8401: Definitions](https://uscode.house.gov/us/usc/119-121/t5/s8401/){:target="_blank"}{: rel="noopener"}
+[5 U.S.C. § 8437: Thrift Savings Fund](https://uscode.house.gov/us/usc/119-121/t5/s8437/){:target="_blank"}{: rel="noopener"}
+[5 U.S.C. § 8472: Federal Retirement Thrift Investment Board](https://uscode.house.gov/us/usc/119-121/t5/s8472/){:target="_blank"}{: rel="noopener"}
 
-5 U.S.C. § 8401: Definitions
-5 U.S.C. § 8437: Thrift Savings Fund
-5 U.S.C. § 8472: Federal Retirement Thrift Investment Board){:target="_blank"}{: rel="noopener"}
+
 
 <!-- CONTENT END -->
