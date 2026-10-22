@@ -23,11 +23,8 @@ The TSP is a retirement savings plan similar to the 401(k) plans offered by many
 
 [Chapter 84 - FEDERAL EMPLOYEES' RETIREMENT SYSTEM - US Code](https://uscode.house.gov/us/usc/119-121/t5/partIII-subpartG-chapter84-front.html){:target="_blank"}{: rel="noopener"}
 
-[5 U.S.C. § 8401: Definitions](https://uscode.house.gov/us/usc/119-121/t5/s8401/){:target="_blank"}{: rel="noopener"}
+<img width="4032" height="526" alt="image" src="https://github.com/user-attachments/assets/92411443-66e9-4a31-9d39-53ddc265264c" />
 
-[5 U.S.C. § 8437: Thrift Savings Fund](https://uscode.house.gov/us/usc/119-121/t5/s8437/){:target="_blank"}{: rel="noopener"}
-
-[5 U.S.C. § 8472: Federal Retirement Thrift Investment Board](https://uscode.house.gov/us/usc/119-121/t5/s8472/){:target="_blank"}{: rel="noopener"}
 
 
 
