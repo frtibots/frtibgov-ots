@@ -21,9 +21,7 @@ Congress created the FRTIB and the TSP in the Federal Employees Retirement Syste
 
 The TSP is a retirement savings plan similar to the 401(k) plans offered by many private employers.  Participants include Federal civilian employees in all branches of Government, employees of the U.S. Postal Service, and members of the uniformed services.
 
-[Chapter 84 - FEDERAL EMPLOYEES' RETIREMENT SYSTEM - US Code](https://uscode.house.gov/us/usc/119-121/t5/partIII-subpartG-chapter84-front.html){:target="_blank"}{: rel="noopener"}
-
-<img width="4032" height="526" alt="image" src="https://github.com/user-attachments/assets/92411443-66e9-4a31-9d39-53ddc265264c" />
+<img width="4032" height="785" alt="image" src="https://github.com/user-attachments/assets/1cff0f9b-ba78-4ab8-bad1-ca4c44978491" />
 
 
 
