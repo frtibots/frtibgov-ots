@@ -1,17 +1,33 @@
 {% comment %}
-Extracted from original menu.html in the template.
-On: /alert-board-meeting
-Off: /alert-none
-It looks like the upper right code is defined below the navigation so that it becomes part of menu when the screen is small.
+=================================================
+BOARD MEETING BANNER SWITCH
+
+true  = BANNER ON
+false = BANNER OFF
+
+ONLY change true/false on the line below.
+=================================================
 {% endcomment %}
 
+{% assign BOARD_MEETING_BANNER_ON = false %}
+
+<br>
+
 {% include header/official-website.html %}
-{% include header/alert-none %}
+
+{% if BOARD_MEETING_BANNER_ON %}
+  {% include header/alert-board-meeting %}
+{% else %}
+  {% include header/alert-none %}
+{% endif %}
+
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
     {% include header/logo.html %}
     <button class="usa-menu-btn">Menu</button>
   </div>
+
   {% include header/topnav.html %}
 </header>
+
 {% include header/documentation.html -%}
