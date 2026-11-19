@@ -689,6 +689,8 @@
   updated:
   title: 2019 Annual No FEAR Data [PDF]
   desc: 2019 Annual No FEAR Data [PDF]
+  
+## Fair Act
 - name: FY23_Fair_Act_Report.xlsx
   updated: 2024-02-13
   title: FAIR Act Report for Fiscal Year (FY) 2023 [XLS]
@@ -816,7 +818,7 @@
   title: 2007 FRTIB Survey Answers [PDF]
   desc: 2007 FRTIB Survey Answers [PDF]
 
-##Frequently Requested Reecords
+## Frequently Requested Reecords
 - name: TIB-2008-C-001_Active-Network.pdf
   updated:
   title: 2008 FRTIB C-001 Active Network [PDF]
@@ -1281,7 +1283,7 @@
   title: FRTIB Affirmative Action Plan - FY2023 [PDF]
   desc: FRTIB Affirmative Action Plan - FY2023 [PDF]
 
-# remote completion PDFs in the onbaording/forms section
+## remote completion PDFs in the onbaording/forms section
 - name: i-9-paper-version.pdf
   updated: 2022-07-25
   title: I-9 Employment Eligibility Verification [PDF]
@@ -1343,7 +1345,7 @@
   title: W-4 Employee’s Withholding Certificate [PDF]
   desc: W-4 Employee’s Withholding Certificate [PDF]
 
-# remote information PDFs in the onbaording/forms section
+## remote information PDFs in the onbaording/forms section
 - name: benefeds.pdf
   updated: 2022-07-25
   title: (BENEFEDS) Federal Benefits FastFacts [PDF]
