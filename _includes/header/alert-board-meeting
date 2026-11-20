@@ -26,7 +26,7 @@ SETTINGS - EDIT THESE VALUES ONLY
 ==================================================
 {% endcomment -%}
 
-{% assign showAlert = true -%}
+{% assign showAlert = false -%}
 {% assign showETAC = false -%}
 
 {% assign confDate = "Thursday, November 19" -%}
