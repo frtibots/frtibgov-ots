@@ -59,7 +59,7 @@ In these cases, the EEO Office may not have authority to accept a formal EEO com
 <h3 class="usa-sr-only">508 compliance documents</h3>
 <div class="usa-accordion">
 {% include accordion/start expanded=false divID="compliance-files" title="Download 508 Compliance Documents" inList=false -%}
-{% include file-list coll="pdf" folder="/508-compliance" format='title' dobutton=true -%}
+{% include file-list coll="pdf" folder="/508-comp" format='title' dobutton=true -%}
 {% include accordion/end  inList=false -%}
 </div>
 <h3 class="usa-sr-only">Anti-Harassment documents</h3>
